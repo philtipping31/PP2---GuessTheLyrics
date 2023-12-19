@@ -30,36 +30,47 @@
 
     <br />
 
-    <div id="quiz">
-      <h2>
-        Finish the lyrics by selecting the from one of the options below
-      </h2>
-      <div>
-        <h3>First Lyrics</h3>
-        <ul>
-          <li>
-            <input type="radio" name="answer" id="option1" class="answer" />
-            <label for="option1" id="option1-text">Answer 1</label>
-          </li>
-          <li>
-            <input type="radio" name="answer" id="option2" class="answer" />
-            <label for="option2" id="option2-text">Answer 2</label>
-          </li>
-          <li>
-            <input type="radio" name="answer" id="option3" class="answer" />
-            <label for="option3" id="option3-text">Answer 3</label>
-          </li>
-          <li>
-            <input type="radio" name="answer" id="option4" class="answer" />
-            <label for="option4" id="option4-text">Answer 4</label>
-          </li>
-        </ul>
-        <button id="submit">Submit Answer</button>
-      </div>
-      <br />
-      <div id="scores">
-        <div id="score-correct">Correct Answers 0</div>
-        <div id="score-incorrect">Incorrect Answers 0</div>
+    <div>
+      <div class="content-area">
+        <h2>
+          Finish the lyrics by selecting the correct ending from one of the
+          options below
+        </h2>
+        <h3 id="lyrics">First Lyrics</h3>
+        <div id="quiz">
+          <ul>
+            <li>
+              <input type="radio" name="answer" id="option1" class="answer" />
+              <label for="option1" id="option1-text">Answer 1</label>
+            </li>
+            <li>
+              <input type="radio" name="answer" id="option2" class="answer" />
+              <label for="option2" id="option2-text">Answer 2</label>
+            </li>
+            <li>
+              <input type="radio" name="answer" id="option3" class="answer" />
+              <label for="option3" id="option3-text">Answer 3</label>
+            </li>
+            <li>
+              <input type="radio" name="answer" id="option4" class="answer" />
+              <label for="option4" id="option4-text">Answer 4</label>
+            </li>
+          </ul>
+
+          <!--Submits users answer choice-->
+          <button
+          id="submit"
+            class="submit-btn"
+            type="submit"
+            style="display: block"
+          >
+            Submit Answer
+          </button>
+        </div>
+        <div id="score-area">
+          <div id="score-correct" class="scores">Correct Answers 0</div>
+          <div id="score-incorrect" class="scores">Incorrect Answers 0</div>
+        </div>
       </div>
     </div>
 
