@@ -78,17 +78,16 @@ input[type='radio'] {
 }
 
 button {
-    margin-top: 35px;
+    margin: 40px auto;
     border-radius: 5px;
     padding: 12px 20px;
     font-size: 100%;
     background-color: rgb(248, 88, 2);
     color: black;
-    align-self: center;
 }
 
 button:hover {
-    margin-top: 25px;
+    margin: 40px auto;
     border-radius: 5px;
     padding: 12px 20px;
     font-size: 100%;
