@@ -5,10 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,200;1,9..40,200&display=swap"
-        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,200;1,9..40,200&display=swap"
+      rel="stylesheet"
+    />
 
     <link rel="shortcut icon" type="image/x-icon" href="favicon.png" />
 
@@ -18,9 +20,9 @@
   </head>
 
   <body>
-    <div class="quiz-container" id="quiz">
-      <div class="quiz-content">
-        <h2 id="quiz-title">Can you guess the right lyrics?</h2>
+    <div id="quiz">
+      <h2 id="quiz-title">Can you guess the right lyrics?</h2>
+      <div class="quiz-container">
         <h3 id="starting-lyrics">First Lyrics</h3>
         <ul>
           <li>
@@ -40,9 +42,12 @@
             <label for="option4" id="option4-text">Answer 4</label>
           </li>
         </ul>
+        <button id="submit">Submit Answer</button>
       </div>
-
-      <button id="submit">Submit Answer</button>
+      <div id="scores">
+        <div id="score-correct">Correct Answers 0</div>
+        <div id="score-incorrect">Incorrect Answers 0</div>
+      </div>
     </div>
 
     <script src="assets/js/script.js"></script>
