@@ -31,6 +31,10 @@ body {
     text-align: center;
     border-bottom: 2px solid grey;
     box-shadow: 0 0 5px white;
+    
+}
+
+a {
     text-decoration: none;
 }
 
