@@ -68,6 +68,10 @@ ul {
     list-style-type: none;
 }
 
+ul li {
+    font-size: 100%;
+    padding:10px;
+}
 
 
 
@@ -101,7 +105,7 @@ button:hover {
 
 #score-area {
 
-    margin: 5px auto;
+    margin: 25% auto;
     width: 65%;
     font-size: 1rem;
     text-align: center;
@@ -121,4 +125,20 @@ button:hover {
 #score-incorrect {
     margin: 3px;
     padding: 5px;
+}
+
+
+/* Media Queries */
+
+/* Media query: for tablets and larger (768px plus) */
+@media screen and (min-width: 768px) {
+
+    #score-area {
+
+    margin: 15% auto;
+    width: 65%;
+    font-size: 1rem;
+    text-align: center;
+
+}
 }
