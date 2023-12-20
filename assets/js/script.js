@@ -1,0 +1,130 @@
+/* quiz content */
+
+
+const quizSection = [{
+        lyrics: "Somebody once told me the world was gonna roll me, I ain't the ________ tool in the shed.",
+        a: "Best",
+        b: "Sharpest",
+        c: "Rusty",
+        d: "Oldest",
+        correct: "b",
+    },
+    {
+        lyrics: "He was a boy, she was a girl, can I make it any more obvious? He was a ________, she did ballet what more can I say?",
+        a: "Square",
+        b: "Hunk",
+        c: "Coder",
+        d: "Punk",
+        correct: "d",
+    },
+    {
+        lyrics: "Cos i'm just a ________, dirtbag baby like you",
+        a: "Smelly",
+        b: "Gorgeous",
+        c: "Teenage",
+        d: "Retired",
+        correct: "c",
+    },
+    {
+        lyrics: "Today I don't feel like doing ________ ",
+        a: "Anything",
+        b: "Work",
+        c: "The housework",
+        d: "Maths",
+        correct: "a",
+    },
+    {
+        lyrics: "Since you been gone, I can ________ for the first time",
+        a: "Sleep",
+        b: "Run",
+        c: "Breathe",
+        d: "Crawl",
+        correct: "c",
+    },
+    {
+        lyrics: "You shoot me down, but I won't fall, I am ________",
+        a: "Invinsible",
+        b: "Titanium",
+        c: "The Terminator",
+        d: "Strong",
+        correct: "b",
+    },
+    {
+        lyrics: "Jealousy, turning saints into the sea, swimming through sick lullabies, choking on your ________",
+        a: "Alibis",
+        b: "Dinner",
+        c: "Words",
+        d: "Own",
+        correct: "a",
+    },
+    {
+        lyrics: "So I'll start a revolution from my bed, cause you said the ________ I had went to my head",
+        a: "Drink",
+        b: "Brains",
+        c: "Stars",
+        d: "None of these",
+        correct: "b",
+    },
+    {
+        lyrics: "I want a brand new house on an episode of Cribs and a bathroom I can ________ in ",
+        a: "sunabathe",
+        b: "eat lunch",
+        c: "bathe",
+        d: "play baseball",
+        correct: "d",
+    },
+    {
+        lyrics: "Today is gonna be the day that they're gonna ________ it back to you",
+        a: "give",
+        b: "fire",
+        c: "throw",
+        d: "drop",
+        correct: "c",
+    },
+    {
+        lyrics: "A long, long time ago, I can still remember how that music used to make me________  ",
+        a: "cry",
+        b: "smile",
+        c: "happy",
+        d: "excited",
+        correct: "b",
+    },
+    {
+        lyrics: "I'm not the man they think I am at home, Oh, no, no, no. I'm a ________ man",
+        a: "rocket",
+        b: "lonely",
+        c: "happy",
+        d: "scary",
+        correct: "a",
+    },
+    {
+        lyrics: "Sometimes I feel like ________ my hands up in the air ",
+        a: "waving",
+        b: "chucking",
+        c: "putting",
+        d: "throwing",
+        correct: "d",
+    },
+    {
+        lyrics: "We get it almost every night, When the ________ is big and bright",
+        a: "moon",
+        b: "sta",
+        c: "",
+        d: "",
+        correct: "",
+    },
+    {
+        lyrics: "________  ",
+        a: "",
+        b: "e",
+        c: "",
+        d: "",
+        correct: "",
+    },
+    
+
+
+
+    
+    
+];
