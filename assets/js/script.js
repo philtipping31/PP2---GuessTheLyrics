@@ -193,13 +193,13 @@ function resetState() {
  * Disable other buttons after selecting answer
  * Show Next button */ 
 
-function selectAnswer(e) {
+function selectAnswer (e){
     const selectedBtn = e.target;
     const isCorrect = selectedBtn.dataset.correct === "true";
     if (isCorrect) {
-        selectedBtn.classList.add("correct");
+        selectedBtn.style.backgroundColor = "green";
     } else {
-        selectedBtn.classList.add("incorrect");
+        selectedBtn.style.backgroundColor = "red";;
     }
     Array.from(answerButtons.children).forEach(button => {
         if (button.dataset.correct === "true") {
