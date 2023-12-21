@@ -30,48 +30,34 @@
 
     <br />
 
-    <div>
-      <div class="content-area">
-        <h2>
-          Finish the lyrics by selecting the correct ending from one of the
-          options below
-        </h2>
-        <h3 id="lyrics">First Lyrics</h3>
-        <div id="quiz">
-          <ul>
-            <li>
-              <input type="radio" name="answer" id="option1" class="answer" />
-              <label for="option1" id="option1-text">Answer 1</label>
-            </li>
-            <li>
-              <input type="radio" name="answer" id="option2" class="answer" />
-              <label for="option2" id="option2-text">Answer 2</label>
-            </li>
-            <li>
-              <input type="radio" name="answer" id="option3" class="answer" />
-              <label for="option3" id="option3-text">Answer 3</label>
-            </li>
-            <li>
-              <input type="radio" name="answer" id="option4" class="answer" />
-              <label for="option4" id="option4-text">Answer 4</label>
-            </li>
-          </ul>
-
-          <!--Submits users answer choice-->
-          <button
-          id="submit"
-            class="submit-btn"
-            type="submit"
-            style="display: block"
-          >
-            Submit Answer
-          </button>
-        </div>
-        <div id="score-area">
-          <div id="score-correct" class="scores">Correct Answers 0</div>
-          <div id="score-incorrect" class="scores">Incorrect Answers 0</div>
-        </div>
+    <div class="content-area" id="quiz">
+      <h2 class="starting-text">
+        Finish the lyrics by selecting the correct ending from one of the
+        options below
+      </h2>
+      <h3 id="lyrics">
+        "He was a boy, she was a girl, can I make it any more obvious? He was a
+        ________, she did ballet what more can I say?"
+      </h3>
+      <div id="answer-btns">
+        <button class="btn">Answer 1</button>
+        <button class="btn">Answer 2</button>
+        <button class="btn">Answer 3</button>
+        <button class="btn">Answer 4</button>
       </div>
+      <!--Submits users answer choice-->
+      <button
+        id="submit"
+        class="submit-btn"
+        type="submit"
+        style="display: block"
+      >
+        Submit Answer
+      </button>
+    </div>
+    <div id="score-area">
+      <div id="score-correct" class="scores">Correct Answers 0</div>
+      <div id="score-incorrect" class="scores">Incorrect Answers 0</div>
     </div>
 
     <script src="assets/js/script.js"></script>

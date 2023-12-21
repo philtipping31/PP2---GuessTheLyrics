@@ -31,7 +31,7 @@ body {
     text-align: center;
     border-bottom: 2px solid grey;
     box-shadow: 0 0 5px white;
-    
+
 }
 
 a {
@@ -64,8 +64,13 @@ h3 {
     text-align: center;
 }
 
+.starting-text {
+    font-size: medium;
+}
+
 #lyrics {
     margin: 5%;
+    font-size: small;
 }
 
 ul {
@@ -74,7 +79,7 @@ ul {
 
 ul li {
     font-size: 100%;
-    padding:10px;
+    padding: 10px;
 }
 
 
@@ -85,7 +90,7 @@ input[type='radio'] {
     accent-color: rgb(248, 88, 2);
 }
 
-button {
+.play-btn {
     margin: 40px auto;
     border-radius: 5px;
     padding: 12px 20px;
@@ -94,7 +99,7 @@ button {
     color: black;
 }
 
-button:hover {
+.play-btn:hover {
     margin: 40px auto;
     border-radius: 5px;
     padding: 12px 20px;
@@ -103,13 +108,57 @@ button:hover {
     color: rgb(248, 88, 2);
 }
 
+.submit-btn {
+    margin: 25px auto;
+    border-radius: 5px;
+    padding: 12px 20px;
+    font-size: 100%;
+    background-color: rgb(248, 88, 2);
+    color: black;
+}
+
+.submit-btn:hover {
+    margin: 25px auto;
+    border-radius: 5px;
+    padding: 12px 20px;
+    font-size: 100%;
+    background-color: black;
+    color: rgb(248, 88, 2);
+}
+
+.btn {
+    background: none;
+    color: white;
+    font-weight: 500;
+    width: 100%;
+    border: 1px solid grey;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: left;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: none;
+    color: white;
+    font-weight: 500;
+    width: 100%;
+    border: 1px solid grey;
+    box-shadow: 0 0 4px 2px grey;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: left;
+    border-radius: 3px;
+    cursor: pointer;
+}
 
 
 /* Scores */
 
 #score-area {
 
-    margin: 25% auto;
+    margin: auto;
     width: 65%;
     font-size: 1rem;
     text-align: center;
@@ -133,16 +182,3 @@ button:hover {
 
 
 /* Media Queries */
-
-/* Media query: for tablets and larger (768px plus) */
-@media screen and (min-width: 768px) {
-
-    #score-area {
-
-    margin: 15% auto;
-    width: 65%;
-    font-size: 1rem;
-    text-align: center;
-
-}
-}
