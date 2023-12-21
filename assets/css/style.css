@@ -82,6 +82,15 @@ ul li {
     padding: 10px;
 }
 
+.correct {
+    background-color: #50b87d;
+}
+
+.incorrect {
+    background-color: #eb3030;
+}
+
+
 
 
 /* Buttons */
@@ -123,8 +132,7 @@ ul li {
 }
 
 .btn {
-    background: none;
-    color: white;
+    color: black;
     font-weight: 500;
     width: 100%;
     border: 1px solid grey;
@@ -136,8 +144,8 @@ ul li {
 }
 
 .btn:hover {
-    background: none;
-    color: white;
+
+    color: black;
     font-weight: 500;
     width: 100%;
     border: 1px solid grey;
