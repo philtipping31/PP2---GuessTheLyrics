@@ -188,6 +188,11 @@ function resetState() {
     }
 }
 
+/** 
+ * Highlight correct answer Green and Incorrect answer red
+ * Disable other buttons after selecting answer
+ * Show Next button */ 
+
 function selectAnswer(e) {
     const selectedBtn = e.target;
     const isCorrect = selectedBtn.dataset.correct === "true";
