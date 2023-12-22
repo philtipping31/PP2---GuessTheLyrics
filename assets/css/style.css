@@ -134,7 +134,7 @@ ul li {
     cursor: pointer;
 }
 
-.btn:hover {
+.btn:hover:not([disabled]) {
     background: none;
     color: white;
     font-weight: 500;
@@ -146,4 +146,8 @@ ul li {
     text-align: left;
     border-radius: 3px;
     cursor: pointer;
+}
+
+.btn:disabled {
+    cursor: no-drop;
 }

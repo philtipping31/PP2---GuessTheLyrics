@@ -191,11 +191,12 @@ function resetState() {
 /** 
  * Highlight correct answer Green and Incorrect answer red
  * Disable other buttons after selecting answer
- * Show Next button */ 
+ * Show Next button */
 
-function selectAnswer (e){
+function selectAnswer(e) {
     const selectedBtn = e.target;
     const isCorrect = selectedBtn.dataset.correct === "true";
+
     if (isCorrect) {
         selectedBtn.style.backgroundColor = "green";
     } else {
