@@ -1,3 +1,11 @@
+# Guess The Lyrics
+
+
+
+
+![Responsive Mockup]
+
+
 ## Credits
 
 - Other students and community leaders on Slack
@@ -6,7 +14,7 @@
 - Stack Overflow
 - Elements of the Love maths projecet from code institute.
 - Google Fonts
-- 
+- Daisy, my mentor for helping me out with issues, particularly with background colour changes when selecting the wrong answer. And just overal support with the course and prooject.
 
 ## Youtube Tutorials
 

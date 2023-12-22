@@ -196,11 +196,13 @@ function resetState() {
 function selectAnswer(e) {
     const selectedBtn = e.target;
     const isCorrect = selectedBtn.dataset.correct === "true";
+    const correct = document.querySelector("[data-correct='true']");
 
     if (isCorrect) {
         selectedBtn.style.backgroundColor = "green";
     } else {
-        selectedBtn.style.backgroundColor = "red";;
+        selectedBtn.style.backgroundColor = "red";
+        correct.style.backgroundColor = "green";
     }
     Array.from(answerButtons.children).forEach(button => {
         if (button.dataset.correct === "true") {
