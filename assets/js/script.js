@@ -135,7 +135,7 @@ const questions = [
     {
         question: "We get it almost every night, When the ________ is big and bright",
         answers: [
-            { text: "moon", correct: false },
+            { text: "moon", correct: true },
             { text: "stars", correct: false },
             { text: "sun", correct: false },
             { text: "lampshade", correct: false },
@@ -167,7 +167,7 @@ function showQuestion() {
     resetState();
     let currentQuestion = questions[currentQuestionIndex];
     let questionNo = currentQuestionIndex + 1;
-    questionElement.innerHTML = questionNo + ". " + currentQuestion.question;
+    questionElement.innerHTML = currentQuestion.question;
 
     currentQuestion.answers.forEach(answer => {
         const button = document.createElement("button");
@@ -200,6 +200,7 @@ function selectAnswer(e) {
 
     if (isCorrect) {
         selectedBtn.style.backgroundColor = "green";
+        score++;
     } else {
         selectedBtn.style.backgroundColor = "red";
         correct.style.backgroundColor = "green";
@@ -212,6 +213,32 @@ function selectAnswer(e) {
     });
     nextButton.style.display = "block";
 }
+
+function showFinalScore() {
+    resetState();
+
+    questionElement.innerHTML = `Well done for completing the lyrics quiz! <p>You scored ${score} out of ${questions.length}. </p> 
+    <p>Feel you can do better? Just click Play Again to retry the quiz. </p>`;
+    nextButton.innerHTML = "Play Again";
+    nextButton.style.display = "block";
+}
+
+function handleNextButton() {
+    currentQuestionIndex++;
+    if (currentQuestionIndex < questions.length) {
+        showQuestion();
+    } else {
+        showFinalScore();
+    }
+}
+
+nextButton.addEventListener("click", () => {
+    if (currentQuestionIndex < questions.length) {
+        handleNextButton();
+    } else {
+        startQuiz();
+    }
+});
 
 startQuiz();
 
