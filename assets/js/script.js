@@ -214,13 +214,18 @@ function selectAnswer(e) {
     nextButton.style.display = "block";
 }
 
+/**
+ * Shows score at then end of the quiz
+ * Updates question element with total score
+ * Allows user to play again */
+
 function showFinalScore() {
     resetState();
 
     questionElement.innerHTML = `Well done for completing the lyrics quiz! <p>You scored ${score} out of ${questions.length}. </p> 
-    <p>Feel you can do better? Just click Play Again to retry the quiz. </p>`;
-    nextButton.innerHTML = "Play Again";
-    nextButton.style.display = "block";
+    <p>Feel you can do better? Just click Play Again to retry the quiz. </p>
+    <button class="play-btn" onclick="location.reload()">Play Again!</button>`;
+
 }
 
 function handleNextButton() {
