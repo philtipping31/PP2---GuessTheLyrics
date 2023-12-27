@@ -1,4 +1,4 @@
-/* lyrics and asnwers content */
+/* lyrics and answers content */
 
 
 const questions = [
@@ -85,66 +85,66 @@ const questions = [
     {
         question: "I want a brand new house on an episode of Cribs and a bathroom I can ________ in ",
         answers: [
-            { text: "sunabathe", correct: false },
-            { text: "eat lunch", correct: false },
-            { text: "play football", correct: false },
-            { text: "play baseball", correct: true },
+            { text: "Sunabathe", correct: false },
+            { text: "Eat lunch", correct: false },
+            { text: "Play football", correct: false },
+            { text: "Play baseball", correct: true },
         ]
     },
 
     {
         question: "Today is gonna be the day that they're gonna ________ it back to you",
         answers: [
-            { text: "give", correct: false },
-            { text: "fire", correct: false },
-            { text: "throw", correct: true },
-            { text: "drop", correct: false },
+            { text: "Give", correct: false },
+            { text: "Fire", correct: false },
+            { text: "Throw", correct: true },
+            { text: "Drop", correct: false },
         ]
     },
 
     {
         question: "A long, long time ago, I can still remember how that music used to make me________  ",
         answers: [
-            { text: "cry", correct: false },
-            { text: "smile", correct: true },
-            { text: "happy", correct: false },
-            { text: "excited", correct: false },
+            { text: "Cry", correct: false },
+            { text: "Smile", correct: true },
+            { text: "Happy", correct: false },
+            { text: "Excited", correct: false },
         ]
     },
 
     {
         question: "I'm not the man they think I am at home, Oh, no, no, no. I'm a ________ man",
         answers: [
-            { text: "rocket", correct: true },
-            { text: "lonely", correct: false },
-            { text: "happy", correct: false },
-            { text: "scary", correct: false },
+            { text: "Rocket", correct: true },
+            { text: "Lonely", correct: false },
+            { text: "Happy", correct: false },
+            { text: "Scary", correct: false },
         ]
     },
 
     {
         question: "Sometimes I feel like ________ my hands up in the air ",
         answers: [
-            { text: "scary", correct: false },
-            { text: "chucking", correct: false },
-            { text: "putting", correct: false },
-            { text: "throwing", correct: true },
+            { text: "Waving", correct: false },
+            { text: "Chucking", correct: false },
+            { text: "Putting", correct: false },
+            { text: "Throwing", correct: true },
         ]
     },
 
     {
         question: "We get it almost every night, When the ________ is big and bright",
         answers: [
-            { text: "moon", correct: true },
-            { text: "stars", correct: false },
-            { text: "sun", correct: false },
-            { text: "lampshade", correct: false },
+            { text: "Moon", correct: true },
+            { text: "Stars", correct: false },
+            { text: "Sun", correct: false },
+            { text: "Lampshade", correct: false },
         ]
     },
 
 ];
 
-/* declaration of variables */
+
 
 const questionElement = document.getElementById("lyrics");
 const answerButtons = document.getElementById("answer-buttons");
@@ -154,7 +154,10 @@ let currentQuestionIndex = 0;
 let score = 0;
 
 
-/* Quiz Functions */
+/**
+ *  Starts the Quiz
+ * Sets the question index to first question
+ * Starts the score as 0 and display the Next question button */
 
 function startQuiz() {
     let currentQuestionIndex = 0;
@@ -162,6 +165,11 @@ function startQuiz() {
     nextButton.innerHTML = "Next";
     showQuestion();
 }
+
+/** 
+ * Gets question (lyrics) data from js file
+ * Populates the question and the answer boxes
+*/
 
 function showQuestion() {
     resetState();
@@ -217,7 +225,7 @@ function selectAnswer(e) {
 /**
  * Shows score at then end of the quiz
  * Updates question element with total score
- * Allows user to play again */
+ * Allows user to play again by display the Play Again button*/
 
 function showFinalScore() {
     resetState();
