@@ -24,6 +24,8 @@ The live link can be found here - ![Guess The Lyrics Quiz] (https://philtipping3
   - No errors were found when passing through the official [W3C CSS Validation Service]
 - Lighthouse
   - I ran my project through lighthouse to ensure the accessibility level was to a high standard on all pages.
+  - The performance was at 77 so I moved the Google Fonts link from the html document to the css document. I also changed the background image from jpg to webp.
+  - 
 
 ![Lighthouse reading]
 
@@ -52,6 +54,7 @@ The live link can be found here - ![Guess The Lyrics Quiz] (https://philtipping3
 - Elements of the Love maths projecet from code institute.
 - Daisy, my mentor for helping me out with issues, particularly with background colour changes when selecting the wrong answer. And just overal support with the course and project.
 - Stack Overflow
+- https://www.online-convert.com/result#j=da9e1849-dd3f-4e39-be93-86f649a506d5 to change background image from jpg to webp
 
 ### Content
 
