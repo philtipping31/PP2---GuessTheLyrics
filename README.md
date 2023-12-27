@@ -3,7 +3,7 @@
 
 
 
-![Responsive Mockup]
+![Responsive Mockup] (.readme/amiresponsive.png)
 
 The live link can be found here - ![Guess The Lyrics Quiz] (https://philtipping31.github.io/PP2---GuessTheLyrics/)
 
