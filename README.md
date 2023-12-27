@@ -66,3 +66,5 @@ Code structure, assistance, ideas and logic for JavaScript was taken from a comb
 - <https://www.youtube.com/watch?v=riDzcEQbX6k&t=2s&ab_channel=WebDevSimplified>
 - <https://www.youtube.com/watch?v=PBcqGxrr9g8&ab_channel=GreatStack>
 - <https://www.youtube.com/watch?v=WiLTsxjCmWQ&t=591s&ab_channel=DearProgrammer>
+- <https://www.youtube.com/watch?v=Vp8x8-reqZA&ab_channel=Codehal>
+
