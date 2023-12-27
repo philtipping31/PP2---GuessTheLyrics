@@ -3,9 +3,9 @@
 
 
 
-![Responsive Mockup] (.readme/amiresponsive.png)
+![Responsive Mockup](./readme/amiresponsive.png)
 
-The live link can be found here - ![Guess The Lyrics Quiz] (https://philtipping31.github.io/PP2---GuessTheLyrics/)
+The live link can be found here - ![Guess The Lyrics Quiz](https://philtipping31.github.io/PP2---GuessTheLyrics/)
 
 ## Features
 
@@ -45,7 +45,7 @@ The live link can be found here - ![Guess The Lyrics Quiz] (https://philtipping3
 
 Wait until you can see a link for deployed page within GitHub Page section. This can take a while. Once the page updates you will see a message: Your site is live at...
 
-The live link can be found here - ![Guess The Lyrics Quiz] (https://philtipping31.github.io/PP2---GuessTheLyrics/)
+The live link can be found here - ![Guess The Lyrics Quiz](https://philtipping31.github.io/PP2---GuessTheLyrics/)
 
 
 ## Credits
@@ -59,7 +59,7 @@ The live link can be found here - ![Guess The Lyrics Quiz] (https://philtipping3
 ### Content
 
 - The background image was taken from [Pexels](https://www.pexels.com/search/)
-- Instructions on how to fix certain HTML and CSS elements were from [W3schools] (https://www.w3schools.com/css/css_grid.asp)
+- Instructions on how to fix certain HTML and CSS elements were from [W3schools](https://www.w3schools.com/css/css_grid.asp)
 - Google fonts were used within the site.
 
 ## Youtube Tutorials
