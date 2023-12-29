@@ -1,20 +1,62 @@
-# Guess The Lyrics
-
-
-
+# Guess The Lyrics Quiz!
 
 ![Responsive Mockup](assets/readme/amiresponsive.png)
 
+## About the page
+
+Test your lyrical knowledge and see if you can match the words to the right songyrics in this engaging and entertaining online quiz.
+
+Guess The Lyrics Quiz is an online, interactive quiz. Users will be able to asnwer a selection of multiple choice questions. Each quesiton will diplay with a missing word The user is then able to choose from a selection of 4 answers to fill in the blank. All questions are lyrics from popular songs so the quiz xan be played by an audience of all ages. 
+
+The Guess the Lyrics Quiz is built using HTML, CSS and JavaScript. This quiz is a responsive website and can be view and played on mobiles, tablets and laptops/computers.This is my second project for Code Institute's Full Stack Developer Diploma course.
+
 The live link can be found here - [Guess The Lyrics Quiz](https://philtipping31.github.io/PP2---GuessTheLyrics/)
 
-## Features
+# Features
 
-### Features Left to Implement
+## Home Page
+
+### Heading
+### Info on how to play
+### Score brackets
+### Play Button
+
+## Quiz Pages 
+
+### The Question
+### The Answers
+### Next Button
+
+## Scores Page
+
+### End of Quiz
+### Scores 
+### Play Again
+
+
+## Features left to implement
+
+- Timer feature so users can test their knowledge against the clock.
+- Add a Login page so a user can create an account and link with a leaderboard to see how they do against other players.
+- Add more questions and different difficulty settings.
+
+
+
+## User Experience (UX) and Design
 
 ## Testing
 
 ### General
 
+### Header 
+
+### Home Page
+
+### Quiz Page
+
+### Buttons
+
+### Reponsiveness
 
 ### Validator Testing
 
@@ -22,6 +64,8 @@ The live link can be found here - [Guess The Lyrics Quiz](https://philtipping31.
   - Checked all pages through the official [W3C validator] - I had issues with trailing slashes which CodeAnywhere seemed to add when saving and auto formatting. This was the same for my PP1. No other errors were shown other than a warning for no text in a <h3> element for the lyrics. I added the text "loading lyrics" for slower servers that are waiting for the javascript to load in.
 - CSS
   - No errors were found when passing through the official [W3C CSS Validation Service]
+- JavaScript
+  - 
 - Lighthouse
   - I ran my project through lighthouse to ensure the accessibility level was to a high standard on all pages.
   - The performance was in the middle region so I moved the Google Fonts link from the html document to the css document. I also changed the background image from jpg to webp.
@@ -59,8 +103,9 @@ The live link can be found here - ![Guess The Lyrics Quiz](https://philtipping31
 ### Content
 
 - The background image was taken from [Pexels](https://www.pexels.com/search/)
-- Instructions on how to fix certain HTML and CSS elements were from [W3schools](https://www.w3schools.com/css/css_grid.asp)
-- Google fonts were used within the site.
+- Instructions on how to fix certain HTML and CSS elements were from [W3schools](https://www.w3schools.com)
+- Google fonts were used for all text in the webpage.
+- Some of the quiz content for lyrics and answers were taken from a a variety of other lyric quiz websites. (https://www.funtrivia.com/trivia-quiz/Music/Finish-the-Lyrics-233200.html) (https://triviacreator.com/quiz/tbeRToU) 
 
 ## Youtube Tutorials
 
