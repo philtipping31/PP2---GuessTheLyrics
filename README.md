@@ -36,7 +36,7 @@ The live link can be found here - [Guess The Lyrics Quiz](https://philtipping31.
 
 ### The Question
 
-![Questions](assets/readme/questions-no-next-btn.png)
+![Questions](assets/readme/question-no-next-btn.png)
 
 ![Questions Hover](assets/readme/questions-hover.png)
 
