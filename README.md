@@ -102,8 +102,14 @@ The live link can be found here - [Guess The Lyrics Quiz](https://philtipping31.
 
 - HTML
   - Checked all pages through the official [W3C validator] - I had issues with trailing slashes which CodeAnywhere seemed to add when saving and auto formatting. This was the same for my PP1. No other errors were shown other than a warning for no text in a <h3> element for the lyrics. I added the text "loading lyrics" for slower servers that are waiting for the javascript to load in.
+
+![HTML Check](assets/readme/html-validator.png)
+
 - CSS
   - No errors were found when passing through the official [W3C CSS Validation Service]
+
+![CSS Check](assets/readme/css-validator.png)
+
 - JavaScript
   - 
 - Lighthouse
