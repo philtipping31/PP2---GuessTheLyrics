@@ -16,22 +16,62 @@ The live link can be found here - [Guess The Lyrics Quiz](https://philtipping31.
 
 ## Home Page
 
+![Home Page](assets/readme/home-page.png)
+
 ### Heading
+
+![Heading](assets/readme/header.png) 
+
 ### Info on how to play
-### Score brackets
+
+
+
 ### Play Button
 
-## Quiz Pages 
+![Play Quiz](assets/readme/play-quiz-btn.png). ![Play Quiz Hover](assets/readme/play-quiz-btn-hover.png)
+
+## Quiz Page 
+
+![Quiz Page](assets/readme/quiz-page.png)
 
 ### The Question
+
+![Questions](assets/readme/questions-no-next-btn)
+
+
+![Questions with Next](assets/readme/questions-with-next-btn.png)
+
+![Questions Hover](assets/readme/questions-hover.png)
+
 ### The Answers
-### Next Button
+
+![Correct Answer](assets/readme/correct-answer.png)
+
+![Incorrect Answer](assets/readme/incorrect-answer.png)
+
 
 ## Scores Page
 
+![Scores](assets/readme/score-page.png)
+
 ### End of Quiz
+
 ### Scores 
+
 ### Play Again
+
+![Play Again Button]
+![Play Again hover]
+
+## Responsive Design
+
+### Mobile View
+
+![Home Page Mobile](assets/readme/home-page-mobile.png)
+
+![Quiz Page Mobile](assets/readme/incorrect-answer-phone.png)
+
+![Score Page Mobile](assets/readme/score-page-mobile.png)
 
 
 ## Features left to implement
