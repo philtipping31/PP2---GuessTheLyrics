@@ -177,11 +177,12 @@ The live link can be found here - [Guess The Lyrics Quiz](https://philtipping31.
   - 
 
 - Home Page 
-![Lighthouse reading Home Page]()
+  
+![Lighthouse reading Home Page](assets/readme/home-lighthouse.png)
 
 - Quiz Page
 
-![Lighthouse reading Quiz Page]
+![Lighthouse reading Quiz Page](assets/readme/quiz-lighthouse.png)
 
 
 ## Deployment
@@ -198,7 +199,7 @@ The live link can be found here - [Guess The Lyrics Quiz](https://philtipping31.
 
 Wait until you can see a link for deployed page within GitHub Page section. This can take a while. Once the page updates you will see a message: Your site is live at...
 
-The live link can be found here - !Guess The Lyrics Quiz](https://philtipping31.github.io/PP2---GuessTheLyrics/)
+The live link can be found here - ![Guess The Lyrics Quiz](https://philtipping31.github.io/PP2---GuessTheLyrics/)
 
 
 ## Credits
