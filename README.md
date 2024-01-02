@@ -127,17 +127,31 @@ The live link can be found here - [Guess The Lyrics Quiz](https://philtipping31.
   - Firefox
   - Internet Explorer
 
+- Tested the header link on all pages to ensure it always takes the user to the home page of the quiz.
 
 ### Home Page
 
-- Tested the header link to ensure it always takes the user to the home page of the quiz.
-- 
+- Buttons work correctly and direct the user to the intented page.
 
 ### Quiz Page
 
-### Buttons
+- Questions display in order correctly.
+- All answers can be interacted with after question is displayed.
+- Correct and Incorrect answers are highlighted correctly when selected.
+- After one answer is selected, all other answer options are disbaled and Next button shows.
+- Next button resets question to a new one and resets answer and hides next button.
+
+
+### Scores Page
+
+- Score tallys correctly. Tested all variables of correct and incorrect options. Correct score always shows out of the correct number of questions.
+- Play Again button correclly resets the quiz by reloading the page to start again.
 
 ### Reponsiveness
+
+- The webpage has been tested in Chrome Dev Tools to allow me to test the site on different screen sizes.
+- Viewed web page on iPhone 13 pro and Ipads outside of Chrome Dev Tools to ensure the same results were showing.
+- All media queries work correclty for the desired screen size.
 
 ### Validator Testing
 
@@ -162,7 +176,12 @@ The live link can be found here - [Guess The Lyrics Quiz](https://philtipping31.
   - The performance was in the middle region so I moved the Google Fonts link from the html document to the css document. I also changed the background image from jpg to webp.
   - 
 
-![Lighthouse reading]
+- Home Page 
+![Lighthouse reading Home Page]()
+
+- Quiz Page
+
+![Lighthouse reading Quiz Page]
 
 
 ## Deployment
