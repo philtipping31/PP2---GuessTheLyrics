@@ -73,20 +73,18 @@ The live link can be found here - [Guess The Lyrics Quiz](https://philtipping31.
 
 ## Scores Page
 
-- 
-
 ![Scores](assets/readme/score-page.png)
 
 ### End of Quiz
 
-### Scores 
-
-### Play Again
-
-![Play Again Button]
-![Play Again hover]
+- The scores page is in place to show the user they have completed the quiz.
+- The user will be able to see how many answers they answered correctly and out of how many questions that are in the quiz.
+- There is an option for the user to click "Play Again". This reloads the page and resets the scores alloing the user the play the quiz again to see if they can beat their last score.
 
 ## Responsive Design
+
+- The Guess the lyrics quiz is made with a responsive design ensuring users can play properly and view the page on all screen sizes. 
+- I began the design on mobile sizing first a worked my way up to larger screens.
 
 ### Mobile View
 
@@ -103,17 +101,37 @@ The live link can be found here - [Guess The Lyrics Quiz](https://philtipping31.
 - Add a Login page so a user can create an account and link with a leaderboard to see how they do against other players.
 - Add more questions and different difficulty settings.
 
-
-
 ## User Experience (UX) and Design
+
+### First time user visit
+
+- As a first time user, I want to clearly see what the aim of the quiz is and what it is about.
+- As a first time user, I want to be able to choose when the quiz begins.
+- As a first time user, I want to be able to see what answers I guess correctly and incorrectly.
+- As a first time user, I want to know how many answers I guessed correctly in the form of a score.
+- As a first time user, I want to be able to easily play the quiz again and as many times as I want.
+
+### Returning User
+
+- As a returning user, I want to be able to improve my score.
+  
 
 ## Testing
 
 ### General
 
-### Header 
+- The web page was constantly tested through Chrome Dev Tools for errors and resposiveness.
+- I tested the page on other browsers as well as Chrome:
+  - Safari
+  - Microsoft Edge
+  - Firefox
+  - Internet Explorer
+
 
 ### Home Page
+
+- Tested the header link to ensure it always takes the user to the home page of the quiz.
+- 
 
 ### Quiz Page
 
@@ -124,17 +142,21 @@ The live link can be found here - [Guess The Lyrics Quiz](https://philtipping31.
 ### Validator Testing
 
 - HTML
-  - Checked all pages through the official [W3C validator] - I had issues with trailing slashes which CodeAnywhere seemed to add when saving and auto formatting. This was the same for my PP1. No other errors were shown other than a warning for no text in a <h3> element for the lyrics. I added the text "loading lyrics" for slower servers that are waiting for the javascript to load in.
+  - Checked all pages through the official [W3C validator](https://validator.w3.org/nu/#textarea) - I had issues with trailing slashes which CodeAnywhere seemed to add when saving and auto formatting. This was the same for my PP1. No other errors were shown other than a warning for no text in a <h3> element for the lyrics. I added the text "loading lyrics" for slower servers that are waiting for the javascript to load in.
 
 ![HTML Check](assets/readme/html-validator.png)
 
 - CSS
-  - No errors were found when passing through the official [W3C CSS Validation Service]
+  - No errors were found when passing through the official [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/validator)
 
 ![CSS Check](assets/readme/css-validator.png)
 
 - JavaScript
-  - 
+  - I ran my Javascript code through [JSHint](https://jshint.com/) 
+
+![JSHint Check]
+
+
 - Lighthouse
   - I ran my project through lighthouse to ensure the accessibility level was to a high standard on all pages.
   - The performance was in the middle region so I moved the Google Fonts link from the html document to the css document. I also changed the background image from jpg to webp.
@@ -144,7 +166,6 @@ The live link can be found here - [Guess The Lyrics Quiz](https://philtipping31.
 
 
 ## Deployment
-
 
 - The site was deployed to GitHub pages during the creation of the site. During the learning time deploying the project earlier was advised. The steps to deploy are as follows:
 
