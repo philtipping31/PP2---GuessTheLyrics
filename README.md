@@ -4,11 +4,11 @@
 
 ## About the page
 
-Test your lyrical knowledge and see if you can match the words to the right songyrics in this engaging and entertaining online quiz.
+Test your lyrical knowledge and see if you can match the words to the right song lyrics in this engaging and entertaining online quiz.
 
-Guess The Lyrics Quiz is an online, interactive quiz. Users will be able to asnwer a selection of multiple choice questions. Each quesiton will display with a missing word The user is then able to choose from a selection of 4 answers to fill in the blank. All questions are lyrics from popular songs allowing the quiz to be played by all ages. 
+Guess The Lyrics Quiz is an online, interactive quiz. Users will be able to asnwer a selection of multiple choice questions. Each quesiton will display with a missing word. The user is then able to choose from a selection of 4 answers to fill in the blank. All questions are lyrics from popular songs allowing the quiz to be played by all ages. 
 
-The Guess the Lyrics Quiz is built using HTML, CSS and JavaScript. This quiz is a responsive website and can be viewed and played on mobiles, tablets and laptops/computers. This is my second project for Code Institute's Full Stack Developer Diploma course.
+The Guess the Lyrics Quiz is built using HTML, CSS and JavaScript. This quiz is a responsive website and can be viewed and played on mobiles, tablets and computers. This is my second project for Code Institute's Full Stack Developer Diploma course.
 
 The live link can be found here - [Guess The Lyrics Quiz](https://philtipping31.github.io/PP2---GuessTheLyrics/)
 
@@ -18,15 +18,15 @@ The live link can be found here - [Guess The Lyrics Quiz](https://philtipping31.
 
 ![Home Page](assets/readme/home-page.png)
 
-- The home page shows the background conistent within all ages of the website allowing good user experience and coninuity. 
-- Users can easily see the title of the page via the header.
+- The home page shows the background of a record player. This is conistent within all ages of the website allowing good user experience and coninuity. 
+- Users can easily see the title of the page on all pages via the header.
 - A brief description is shown on what the quiz is about and how to play. 
 - A score breakdown is also shown so users can see what bracket they are aiming for before playing the quiz.
 - The Info area is a transparent colour so the background image can still be seen in full, but without the issue of bad colour contrast. This is to ensure the user can see all written content clearly.
 
 ### Play Button
 
-- The Play Quiz button is also shown on the home page. The button has a hover affect allowing the user to know that is a button that can be interacted with.
+- The Play Quiz button is also shown on the home page. The button has a hover affect allowing the user to know that the button can be interacted with.
 - When the Play Quiz button is clicked it will take the user to the quiz.html page and they can begin answering the questions.
 
 ![Play Quiz](assets/readme/play-quiz-btn.png). ![Play Quiz Hover](assets/readme/play-quiz-btn-hover.png)
@@ -36,15 +36,15 @@ The live link can be found here - [Guess The Lyrics Quiz](https://philtipping31.
 
 ![Heading](assets/readme/header.png) 
 
-- The header has been made simple and at a size that is not too obtrusive. This so the user is naturally directed to the game area.
-- The header also features a link to the home page so a user can navigate from playing thw quiz back to the home page if they wish.
+- The header has been made simple and at a size that is not too obtrusive. This is so the user is naturally directed to the game area.
+- The header also features a link to the home page so a user can navigate from playing the quiz back to the home page at any time if they wish.
 
 
 ## Quiz Page 
 
 ![Quiz Page](assets/readme/quiz-page.png)
 
-- The main quiz page is a simple yet visually pleasing. The background image is the same as the home page as well as the quiz area being the same style as the main info page.
+- The main quiz page is simple yet visually pleasing. The background image is the same as the home page as well as the quiz area being the same style as the main info page.
 - The header is still visible, allowing a user to go back to the home page at anytime during the quiz.
 
 ### The Question and Answers
@@ -65,8 +65,8 @@ The live link can be found here - [Guess The Lyrics Quiz](https://philtipping31.
 ![Incorrect Answer](assets/readme/incorrect-answer.png)
 
 
-- After an answer has been selected, all other options will be disabled. This is to stop the user being able to select a differ answer after their first guess.
-- After an answer has been selected, the 'Next' button will appear, allowing the user to navigate to the next question.
+- After an answer has been selected, all other options will be disabled. This is to stop the user being able to select a different answer after their first guess.
+- After an answer has been selected, the 'Next' button will appear, allowing the user to click and navigate to the next question.
 
 ![Questions with Next](assets/readme/questions-with-next-btn.png)
 
@@ -79,12 +79,12 @@ The live link can be found here - [Guess The Lyrics Quiz](https://philtipping31.
 
 - The scores page is in place to show the user they have completed the quiz.
 - The user will be able to see how many answers they answered correctly and out of how many questions that are in the quiz.
-- There is an option for the user to click "Play Again". This reloads the page and resets the scores alloing the user the play the quiz again to see if they can beat their last score.
+- There is an option for the user to click "Play Again". This reloads the page and resets the scores allowing the user to play the quiz again to see if they can beat their last score.
 
 ## Responsive Design
 
-- The Guess the lyrics quiz is made with a responsive design ensuring users can play properly and view the page on all screen sizes. 
-- I began the design on mobile sizing first a worked my way up to larger screens.
+- The Guess the lyrics quiz is made with a responsive design ensuring users can play properly and view all pages on all screen sizes. 
+- I began the design on mobile sizing first and worked my way up to larger screens.
 
 ### Mobile View
 
@@ -101,7 +101,7 @@ The live link can be found here - [Guess The Lyrics Quiz](https://philtipping31.
 - Add a Login page so a user can create an account and link with a leaderboard to see how they do against other players.
 - Add more questions and different difficulty settings.
 
-## User Experience (UX) and Design
+## User Experience
 
 ### First time user visit
 
@@ -132,6 +132,7 @@ The live link can be found here - [Guess The Lyrics Quiz](https://philtipping31.
 ### Home Page
 
 - Buttons work correctly and direct the user to the intented page.
+- All test is visible to the user.
 
 ### Quiz Page
 
@@ -145,7 +146,7 @@ The live link can be found here - [Guess The Lyrics Quiz](https://philtipping31.
 ### Scores Page
 
 - Score tallys correctly. Tested all variables of correct and incorrect options. Correct score always shows out of the correct number of questions.
-- Play Again button correclly resets the quiz by reloading the page to start again.
+- Play Again button correctly resets the quiz by reloading the page to start again.
 
 ### Reponsiveness
 
@@ -173,7 +174,7 @@ The live link can be found here - [Guess The Lyrics Quiz](https://philtipping31.
 
 - Lighthouse
   - I ran my project through lighthouse to ensure the accessibility level was to a high standard on all pages.
-  - The performance was in the middle region so I moved the Google Fonts link from the html document to the css document. I also changed the background image from jpg to webp.
+  - The performance was in the middle region so I moved the Google Fonts link from the html document to the css document. I also changed the background image from jpg to webp. This improved the score to 100 on all pages.
   - 
 
 - Home Page 
@@ -199,7 +200,7 @@ The live link can be found here - [Guess The Lyrics Quiz](https://philtipping31.
 
 Wait until you can see a link for deployed page within GitHub Page section. This can take a while. Once the page updates you will see a message: Your site is live at...
 
-The live link can be found here - ![Guess The Lyrics Quiz](https://philtipping31.github.io/PP2---GuessTheLyrics/)
+The live link can be found here - [Guess The Lyrics Quiz](https://philtipping31.github.io/PP2---GuessTheLyrics/)
 
 
 ## Credits
