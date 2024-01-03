@@ -6,7 +6,7 @@
 
 Test your lyrical knowledge and see if you can match the words to the right song lyrics in this engaging and entertaining online quiz.
 
-Guess The Lyrics Quiz is an online, interactive quiz. Users will be able to asnwer a selection of multiple choice questions. Each quesiton will display with a missing word. The user is then able to choose from a selection of 4 answers to fill in the blank. All questions are lyrics from popular songs allowing the quiz to be played by all ages. 
+Guess The Lyrics Quiz is an online, interactive quiz. Users will be able to answer a selection of multiple choice questions. Each quesiton will display with a missing word. The user is then able to choose from 4 answers to fill in the blank. All questions are lyrics from popular songs allowing the quiz to be played by all ages. 
 
 The Guess the Lyrics Quiz is built using HTML, CSS and JavaScript. This quiz is a responsive website and can be viewed and played on mobiles, tablets and computers. This is my second project for Code Institute's Full Stack Developer Diploma course.
 
@@ -18,9 +18,9 @@ The live link can be found here - [Guess The Lyrics Quiz](https://philtipping31.
 
 ![Home Page](assets/readme/home-page.png)
 
-- The home page shows the background of a record player. This is conistent within all ages of the website allowing good user experience and coninuity. 
+- The home page shows the background of a record player. This is consistent within all pages of the website allowing good user experience and continuity. 
 - Users can easily see the title of the page on all pages via the header.
-- A brief description is shown on what the quiz is about and how to play. 
+- A brief description is shown on what the quiz is about and how to play.
 - A score breakdown is also shown so users can see what bracket they are aiming for before playing the quiz.
 - The Info area is a transparent colour so the background image can still be seen in full, but without the issue of bad colour contrast. This is to ensure the user can see all written content clearly.
 
@@ -44,7 +44,7 @@ The live link can be found here - [Guess The Lyrics Quiz](https://philtipping31.
 
 ![Quiz Page](assets/readme/quiz-page.png)
 
-- The main quiz page is simple yet visually pleasing. The background image is the same as the home page as well as the quiz area being the same style as the main info page.
+- The main quiz page is simple yet visually pleasing. The background image is the same as the home page as well as the quiz area being the same style as the main info page. 
 - The header is still visible, allowing a user to go back to the home page at anytime during the quiz.
 
 ### The Question and Answers
@@ -167,15 +167,14 @@ The live link can be found here - [Guess The Lyrics Quiz](https://philtipping31.
 ![CSS Check](assets/readme/css-validator.png)
 
 - JavaScript
-  - I ran my Javascript code through [JSHint](https://jshint.com/) 
+  - I ran my Javascript code through [JSHint](https://jshint.com/) - no warnings show. 
 
-![JSHint Check]
+![JSHint Check](assets/readme/jshint.png)
 
 
 - Lighthouse
   - I ran my project through lighthouse to ensure the accessibility level was to a high standard on all pages.
   - The performance was in the middle region so I moved the Google Fonts link from the html document to the css document. I also changed the background image from jpg to webp. This improved the score to 100 on all pages.
-  - 
 
 - Home Page 
   
