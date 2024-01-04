@@ -189,7 +189,7 @@ function showQuestion() {
 }
 
 /**
- * Hides next button
+ * Hides next button when question is initially displayed
  */
 
 function resetState() {
