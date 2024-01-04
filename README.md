@@ -120,7 +120,7 @@ The live link can be found here - [Guess The Lyrics Quiz](https://philtipping31.
 
 ### General
 
-- The web page was constantly tested through Chrome Dev Tools for errors and resposiveness.
+- The web page was constantly tested through Chrome Dev Tools for errors and responsiveness.
 - I tested the page on other browsers as well as Chrome:
   - Safari
   - Microsoft Edge
@@ -131,8 +131,8 @@ The live link can be found here - [Guess The Lyrics Quiz](https://philtipping31.
 
 ### Home Page
 
-- Buttons work correctly and direct the user to the intented page.
-- All test is visible to the user.
+- Buttons work correctly and direct the user to the intended page.
+- All text is visible to the user.
 
 ### Quiz Page
 
@@ -206,7 +206,7 @@ The live link can be found here - [Guess The Lyrics Quiz](https://philtipping31.
 
 - Other students and community leaders on Slack
 - Elements of the Love maths projecet from code institute.
-- Daisy, my mentor for helping me out with issues, particularly with background colour changes when selecting the wrong answer. And just overal support with the course and project.
+- My mentor for helping me out with issues, particularly with background colour changes when selecting the wrong answer. And just overal support with the course and project.
 - Stack Overflow
 - https://www.online-convert.com/result#j=da9e1849-dd3f-4e39-be93-86f649a506d5 to change background image from jpg to webp
 
