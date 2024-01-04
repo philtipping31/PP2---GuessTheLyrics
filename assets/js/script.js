@@ -160,8 +160,8 @@ let score = 0;
  * Starts the score as 0 and display the Next question button */
 
 function startQuiz() {
-    let currentQuestionIndex = 0;
-    let score = 0;
+    currentQuestionIndex = 0;
+    score = 0;
     nextButton.innerHTML = "Next";
     showQuestion();
 }
@@ -174,7 +174,6 @@ function startQuiz() {
 function showQuestion() {
     resetState();
     let currentQuestion = questions[currentQuestionIndex];
-    let questionNo = currentQuestionIndex + 1;
     questionElement.innerHTML = currentQuestion.question;
 
     currentQuestion.answers.forEach(answer => {
@@ -188,6 +187,10 @@ function showQuestion() {
         button.addEventListener("click", selectAnswer);
     });
 }
+
+/**
+ * Hides next button
+ */
 
 function resetState() {
     nextButton.style.display = "none";
@@ -236,6 +239,11 @@ function showFinalScore() {
 
 }
 
+/**
+ * Increases question index if less than question total
+ * If not shows final score page
+ */
+
 function handleNextButton() {
     currentQuestionIndex++;
     if (currentQuestionIndex < questions.length) {
@@ -245,6 +253,8 @@ function handleNextButton() {
     }
 }
 
+
+// Add click event to hnadle question or start quiz
 nextButton.addEventListener("click", () => {
     if (currentQuestionIndex < questions.length) {
         handleNextButton();
@@ -253,6 +263,7 @@ nextButton.addEventListener("click", () => {
     }
 });
 
+// Starts quiz
 startQuiz();
 
 

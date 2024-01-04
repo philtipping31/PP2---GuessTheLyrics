@@ -12,6 +12,20 @@ The Guess the Lyrics Quiz is built using HTML, CSS and JavaScript. This quiz is 
 
 The live link can be found here - [Guess The Lyrics Quiz](https://philtipping31.github.io/PP2---GuessTheLyrics/)
 
+## User Experience
+
+### First time user visit
+
+- As a first time user, I want to clearly see what the aim of the quiz is and what it is about.
+- As a first time user, I want to be able to choose when the quiz begins.
+- As a first time user, I want to be able to see what answers I guess correctly and incorrectly.
+- As a first time user, I want to know how many answers I guessed correctly in the form of a score.
+- As a first time user, I want to be able to easily play the quiz again and as many times as I want.
+
+### Returning User
+
+- As a returning user, I want to be able to improve my score.
+
 # Features
 
 ## Home Page
@@ -101,21 +115,6 @@ The live link can be found here - [Guess The Lyrics Quiz](https://philtipping31.
 - Add a Login page so a user can create an account and link with a leaderboard to see how they do against other players.
 - Add more questions and different difficulty settings.
 
-## User Experience
-
-### First time user visit
-
-- As a first time user, I want to clearly see what the aim of the quiz is and what it is about.
-- As a first time user, I want to be able to choose when the quiz begins.
-- As a first time user, I want to be able to see what answers I guess correctly and incorrectly.
-- As a first time user, I want to know how many answers I guessed correctly in the form of a score.
-- As a first time user, I want to be able to easily play the quiz again and as many times as I want.
-
-### Returning User
-
-- As a returning user, I want to be able to improve my score.
-  
-
 ## Testing
 
 ### General
@@ -145,7 +144,7 @@ The live link can be found here - [Guess The Lyrics Quiz](https://philtipping31.
 
 ### Scores Page
 
-- Score tallys correctly. Tested all variables of correct and incorrect options. Correct score always shows out of the correct number of questions.
+- Score tallys correctly. Tested all variables of correct and incorrect options answered. Correct score always shows out of the correct number of questions.
 - Play Again button correctly resets the quiz by reloading the page to start again.
 
 ### Reponsiveness
@@ -157,7 +156,7 @@ The live link can be found here - [Guess The Lyrics Quiz](https://philtipping31.
 ### Validator Testing
 
 - HTML
-  - Checked all pages through the official [W3C validator](https://validator.w3.org/nu/#textarea) - I had issues with trailing slashes which CodeAnywhere seemed to add when saving and auto formatting. This was the same for my PP1. No other errors were shown other than a warning for no text in a <h3> element for the lyrics. I added the text "loading lyrics" for slower servers that are waiting for the javascript to load in.
+  - Checked all pages through the official [W3C validator](https://validator.w3.org/nu/#textarea) - I had issues with trailing slashes which CodeAnywhere seemed to add when saving and auto formatting. This was the same for my PP1. No other errors were shown other than a warning for no text in a 'h3' element for the lyrics. I added the text "loading lyrics" for slower servers that are waiting for the javascript to load in.
 
 ![HTML Check](assets/readme/html-validator.png)
 
@@ -176,7 +175,7 @@ The live link can be found here - [Guess The Lyrics Quiz](https://philtipping31.
   - I ran my project through lighthouse to ensure the accessibility level was to a high standard on all pages.
   - The performance was in the middle region so I moved the Google Fonts link from the html document to the css document. I also changed the background image from jpg to webp. This improved the score to 100 on all pages.
 
-- Home Page 
+- Home Page
   
 ![Lighthouse reading Home Page](assets/readme/home-lighthouse.png)
 
@@ -189,15 +188,15 @@ The live link can be found here - [Guess The Lyrics Quiz](https://philtipping31.
 
 - The site was deployed to GitHub pages during the creation of the site. During the learning time deploying the project earlier was advised. The steps to deploy are as follows:
 
-- Go to GitHub repository.
-- Click on "Settings".
-- Click on "Pages"(tab found on the left sidebar).
-- Scroll to "Build and deployment" section.
-- Find the sub-section "Branch".
-- From the drop-down menu "none"/"select branch" change this to choose source "main" (or "master").
-- Click 'Save'
+  - Go to GitHub repository.
+  - Click on "Settings".
+  - Click on "Pages"(tab found on the left sidebar).
+  - Scroll to "Build and deployment" section.
+  - Find the sub-section "Branch".
+  - From the drop-down menu "none"/"select branch" change this to choose source "main" (or "master").
+  - Click 'Save'
 
-Wait until you can see a link for deployed page within GitHub Page section. This can take a while. Once the page updates you will see a message: Your site is live at...
+Wait until you can see a link for deployed page within GitHub Page section. This can sometimes take a bit of time. Once the page updates you will see a message: "Your site is live at...
 
 The live link can be found here - [Guess The Lyrics Quiz](https://philtipping31.github.io/PP2---GuessTheLyrics/)
 
@@ -207,19 +206,20 @@ The live link can be found here - [Guess The Lyrics Quiz](https://philtipping31.
 - Other students and community leaders on Slack
 - Elements of the Love maths projecet from code institute.
 - My mentor for helping me out with issues, particularly with background colour changes when selecting the wrong answer. And just overal support with the course and project.
-- Stack Overflow
-- https://www.online-convert.com/result#j=da9e1849-dd3f-4e39-be93-86f649a506d5 to change background image from jpg to webp
+- Stack Overflow for lots of help on areas I got stuck on.
+- I used [Online Convert](https://www.online-convert.com/result#j=da9e1849-dd3f-4e39-be93-86f649a506d5) to change background image from jpg to webp.
 
 ### Content
 
 - The background image was taken from [Pexels](https://www.pexels.com/search/)
 - Instructions on how to fix certain HTML and CSS elements were from [W3schools](https://www.w3schools.com)
-- Google fonts were used for all text in the webpage.
-- Some of the quiz content for lyrics and answers were taken from a a variety of other lyric quiz websites. (https://www.funtrivia.com/trivia-quiz/Music/Finish-the-Lyrics-233200.html) (https://triviacreator.com/quiz/tbeRToU) 
+- JavaScript help was taken from [W3schools](https://www.w3chools.com)
+- Google fonts were used for all text on the webpage.
+- Some of the quiz content for lyrics and answers were taken from a a variety of other lyric quiz websites as well as my own ideas. (https://www.funtrivia.com/trivia-quiz/Music/Finish-the-Lyrics-233200.html) (https://triviacreator.com/quiz/tbeRToU) 
 
 ## Youtube Tutorials
 
-Code structure, assistance, ideas and logic for JavaScript was taken from a combination of these videos.
+Code structure, assistance, ideas and logic for JavaScript have been taken from a combination of these videos.
 
 - <https://www.youtube.com/watch?v=riDzcEQbX6k&t=2s&ab_channel=WebDevSimplified>
 - <https://www.youtube.com/watch?v=PBcqGxrr9g8&ab_channel=GreatStack>
