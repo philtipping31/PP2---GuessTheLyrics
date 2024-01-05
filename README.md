@@ -47,7 +47,7 @@ The live link can be found here - [Guess The Lyrics Quiz](https://philtipping31.
 
 ### Favicon
 
-- I used a favicon from [Icons8](https://icons8.com/icons/set/favicon) - Its main purpose is to help visitors locate your page easier when they have multiple tabs open.
+- I used a favicon from [Icons8](https://icons8.com/icons/set/favicon) - Its main purpose is to help visitors locate the web page easier when they have multiple tabs open.
 
 ![Favicon](docs/faivcon.png)
 
