@@ -100,6 +100,13 @@ The live link can be found here - [Guess The Lyrics Quiz](https://philtipping31.
 - The user will be able to see how many answers they answered correctly and out of how many questions that are in the quiz.
 - There is an option for the user to click "Play Again". This reloads the page and resets the scores allowing the user to play the quiz again to see if they can beat their last score.
 
+## 404 Page 
+
+- The 404 page will display if a user navigates to a broken link or adds additional text to the existing URL.
+- The 404 page will allow the user to easily navigate back to the main website if they do encounter a broken link / missing page without having to click the back button on the browser.
+
+![404 page](docs/404page.png)
+
 ## Responsive Design
 
 - The Guess the lyrics quiz is made with a responsive design ensuring users can play properly and view all pages on all screen sizes. 
@@ -125,38 +132,55 @@ The live link can be found here - [Guess The Lyrics Quiz](https://philtipping31.
 ### General
 
 - The web page was constantly tested through Chrome Dev Tools for errors and responsiveness.
-- I tested the page on other browsers as well as Chrome:
+
+- I tested the page on other browsers as well as Chrome by opening the live link in each of the following browsers:
   - Safari
   - Microsoft Edge
   - Firefox
   - Internet Explorer
 
-- Tested the header link on all pages to ensure it always takes the user to the home page of the quiz.
+All browsers show the page correctly and as intended.
+
+### Header
+
+| Test                                                       | Action                                      | Expected                          | Result |
+| ---------------------------------------------------------- | ------------------------------------------- | --------------------------------- | ------ |
+| Checked header link directs user to home page on all pages | Click on the header "Guess the Lyrics Quiz" | Takes user to the index.html page | Pass   |
 
 ### Home Page
 
-- Buttons work correctly and direct the user to the intended page.
-- All text is visible to the user.
+| Test                                                                                    | Action                                                                         | Expected                                              | Result |
+| --------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ | ----------------------------------------------------- | ------ |
+| Does the Play Quiz button correctly load the quiz                                       | Click Play Quiz button                                                         | Loads the quiz.html page to begin the quiz            | Pass   |
+| Is the text on the home page clear to the user                                          | Check all text is clearly visible against the background                       | User can clearly see all text on the home page        | Pass   |
+| If background image doesn't load is the back up background suitable for the text colour | Removed background image and checked if the text is still visible to the user. | User can still clearly read all text on the home page | Pass   |
 
 ### Quiz Page
 
-- Questions display in order correctly.
-- All answers can be interacted with after question is displayed.
-- Correct and Incorrect answers are highlighted correctly when selected.
-- After one answer is selected, all other answer options are disbaled and Next button shows.
-- Next button resets question to a new one and resets answer and hides next button.
+| Test                                                                                               | Action                                                                                                                                                                   | Expected                                                                                                                      | Result |
+| -------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------- | ------ |
+| Do all questions correctly display in order                                                        | Run through the quiz mutliple times and check they are the same as they are listed in the JavaScript file                                                                | All questions run through the list of 14 as per the Javascript file                                                           | Pass   |
+| Can the user choose from all 4 answers when the question is displayed                              | Load each question and check each answer is clickable. Repeat process for all 14 questions                                                                               | The user can select from one of the 4 options each time a question is displayed All options begin clickable.                  | Pass   |
+| When an answer is selected, does the correct answer and incorrect answer highlight correctly.      | Select a correct answer to see if it highlights correctly. Select an incorrect answer and see if it highlights correctly as well as showing the user the correct answer. | Correct answers show in green and incorrect answers show in red as well as show the user the correct answer in green.         | Pass   |
+| Once an answer is selected are all other answers disabled so the user can no longer click on them? | Select an answer and attempt to select another one.                                                                                                                      | Once answer is selected, the user can no longer select another option                                                         | Pass   |
+| When an answer is selected, does the next button appear                                            | Select an answer and see the next button appear to go to the next question                                                                                               | The Next button appears correctly after an answer is selected                                                                 | Pass   |
+| Does clicking the next button load a new question and answers                                      | Click Next and see if the next question shows with the answer options linked to it.                                                                                      | After clicking next, the next question in the index is loaded with all of the answer options linked to that specific question | Pass   |
 
 
 ### Scores Page
 
-- Score tallys correctly. Tested all variables of correct and incorrect options answered. Correct score always shows out of the correct number of questions.
-- Play Again button correctly resets the quiz by reloading the page to start again.
+| Test                                                                      | Action                                                                                                                                                          | Expected                                                                                                               | Result |
+| ------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- | ------ |
+| Does the score tally up correctly based on options selected               | Run through the quiz and choose all correct answers / all incorrect answers / mixture of the two and see that the scores tally correctly as the end of the quiz | Do the scores show correctly based on what the user has selected throughout the quiz.                                  | Pass   |
+| Does the Play Again button correctly reset the scores and reload the quiz | Click the Play Again button                                                                                                                                     | The play again button reloads the quiz, taking the user back to the first question and also resets the previous score. | Pass   |
 
 ### Reponsiveness
 
-- The webpage has been tested in Chrome Dev Tools to allow me to test the site on different screen sizes.
-- Viewed web page on iPhone 13 pro and Ipads outside of Chrome Dev Tools to ensure the same results were showing.
-- All media queries work correclty for the desired screen size.
+| Test                                                      | Action                                                                                                     | Expected                                                                                                          | Result |
+| --------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- | ------ |
+| Does the webpage show on different screen sizes correctly | Open Dev Tools on Chrome by clicking Inspect. Change the screen size by dragging or selecting device type. | Content on the screen is visible on all screen sizes/ no images are pixelated / all interactions work as intended | Pass   |
+| Check webpage on an actual phone and tablet size screen   | Tested on personal iphone 13 pro and Ipad                                                                  | Webpage works as shown on dev tools with no issues                                                                | Pass   |
+| Media queries working as intended                         | Review all media queries and check the changes when the screen size is increased/decreased                 | Sizing is correct when screen size is increased from phone to tablet and larger                                   | Pass   |
 
 ### Validator Testing
 
