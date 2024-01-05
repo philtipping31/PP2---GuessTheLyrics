@@ -175,10 +175,6 @@ ul li {
 
 }
 
-.error-img {
-    width: 20%;
-}
-
 .here {
     text-decoration: underline;
 }
@@ -205,14 +201,6 @@ ul li {
         margin: 5%;
         font-size: medium;
     }
-
-    
-
-}
-
-/* Media query for screens with minimum width of 1024px (for laptops and larger) */
-
-@media screen and (min-width: 1024px) {
 
     
 

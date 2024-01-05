@@ -105,7 +105,7 @@ The live link can be found here - [Guess The Lyrics Quiz](https://philtipping31.
 - The 404 page will display if a user navigates to a broken link or adds additional text to the existing URL.
 - The 404 page will allow the user to easily navigate back to the main website if they do encounter a broken link / missing page without having to click the back button on the browser.
 
-![404 page](docs/404-page.png)
+![404 page](docs/error-page.png)
 
 ## Responsive Design
 
@@ -278,7 +278,8 @@ Navigate to the GitHub and locate the Repository you want to clone to use locall
 - Instructions on how to fix certain HTML and CSS elements were from [W3schools](https://www.w3schools.com)
 - JavaScript help was taken from [W3schools](https://www.w3chools.com)
 - Google fonts were used for all text on the webpage.
-- Some of the quiz content for lyrics and answers were taken from a a variety of other lyric quiz websites as well as my own ideas. (https://www.funtrivia.com/trivia-quiz/Music/Finish-the-Lyrics-233200.html) (https://triviacreator.com/quiz/tbeRToU) 
+- Some of the quiz content for lyrics and answers were taken from [Funtrivia](https://www.funtrivia.com/trivia-quiz/Music/Finish-the-Lyrics-233200.html) and [Trivir Creator](https://triviacreator.com/quiz/tbeRToU) as well as my own ideas.
+- [Font Awesome](https://fontawesome.com/icons/face-frown?f=classic&s=regular&sz=2xl) was used to get the icon for the 404 Error Page.
 
 ## Youtube Tutorials
 
