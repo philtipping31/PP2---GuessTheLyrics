@@ -241,7 +241,7 @@ function showFinalScore() {
 
 /**
  * Increases question index if less than question total
- * If not shows final score page
+ * If end of question index shows final score page
  */
 
 function handleNextButton() {
@@ -254,7 +254,7 @@ function handleNextButton() {
 }
 
 
-// Add click event to hnadle question or start quiz
+// Add click event to handle question or start quiz
 nextButton.addEventListener("click", () => {
     if (currentQuestionIndex < questions.length) {
         handleNextButton();
