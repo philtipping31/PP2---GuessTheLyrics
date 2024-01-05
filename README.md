@@ -105,7 +105,7 @@ The live link can be found here - [Guess The Lyrics Quiz](https://philtipping31.
 - The 404 page will display if a user navigates to a broken link or adds additional text to the existing URL.
 - The 404 page will allow the user to easily navigate back to the main website if they do encounter a broken link / missing page without having to click the back button on the browser.
 
-![404 page](docs/404page.png)
+![404 page](docs/404-page.png)
 
 ## Responsive Design
 

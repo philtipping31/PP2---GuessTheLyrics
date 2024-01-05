@@ -176,8 +176,7 @@ ul li {
 }
 
 .error-img {
-    width: 60%;
-    height: 60%;
+    width: 20%;
 }
 
 .here {
@@ -207,10 +206,7 @@ ul li {
         font-size: medium;
     }
 
-    .error-img {
-        width: 30%;
-        height: 30%;
-    }
+    
 
 }
 
@@ -218,9 +214,6 @@ ul li {
 
 @media screen and (min-width: 1024px) {
 
-    .error-img {
-        width: 30%;
-        height: 50%;
-    }
+    
 
 }
