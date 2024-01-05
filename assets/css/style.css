@@ -176,7 +176,7 @@ ul li {
 }
 
 .error-img {
-    width: 30%;
+    width: 60%;
     height: 60%;
 }
 
@@ -205,6 +205,22 @@ ul li {
     #lyrics {
         margin: 5%;
         font-size: medium;
+    }
+
+    .error-img {
+        width: 30%;
+        height: 30%;
+    }
+
+}
+
+/* Media query for screens with minimum width of 1024px (for laptops and larger) */
+
+@media screen and (min-width: 1024px) {
+
+    .error-img {
+        width: 30%;
+        height: 50%;
     }
 
 }

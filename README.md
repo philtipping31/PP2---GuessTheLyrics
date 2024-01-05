@@ -174,6 +174,14 @@ All browsers show the page correctly and as intended.
 | Does the score tally up correctly based on options selected               | Run through the quiz and choose all correct answers / all incorrect answers / mixture of the two and see that the scores tally correctly as the end of the quiz | Do the scores show correctly based on what the user has selected throughout the quiz.                                  | Pass   |
 | Does the Play Again button correctly reset the scores and reload the quiz | Click the Play Again button                                                                                                                                     | The play again button reloads the quiz, taking the user back to the first question and also resets the previous score. | Pass   |
 
+### 404 Error Page
+
+| Test                                                             | Action                                                                        | Expected                                                   | Result |
+| ---------------------------------------------------------------- | ----------------------------------------------------------------------------- | ---------------------------------------------------------- | ------ |
+| Do all text and images show correctly and respond to screen size | Check webpage on dev tools for responsiveness and contrast on text/background | Image and text all display as intended on all screen sizes | Pass   |
+| Does the page appear when broken URL is entered                  | Enter additional text to live URL and check if the 404 Error page displays    | 404 Error page displays when broken URL entered            | Pass   |
+| Does the 'HERE' text direct the user back to website home page   | Click on there here text to see if the site is directed back to the home page | On clicking the here text, the home page reloads           | Pass   |
+
 ### Reponsiveness
 
 | Test                                                      | Action                                                                                                     | Expected                                                                                                          | Result |
