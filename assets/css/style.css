@@ -26,6 +26,7 @@ body {
     align-items: center;
     min-height: 100vh;
     overflow-x: hidden;
+    text-align: center;
 }
 
 /* Header */
@@ -170,18 +171,15 @@ ul li {
 /* 404 Page */
 
 .container {
-    background-color: white;
     text-align: center;
-    color: black;
+
 }
 
 .error-img {
-    width: 50%;
+    width: 30%;
+    height: 30%;
 }
 
-.here {
-    color: black;
-}
 
 
 
