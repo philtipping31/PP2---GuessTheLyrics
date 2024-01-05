@@ -6,7 +6,7 @@
 
 Test your lyrical knowledge and see if you can match the words to the right song lyrics in this engaging and entertaining online quiz.
 
-Guess The Lyrics Quiz is an online, interactive quiz. Users will be able to answer a selection of multiple choice questions. Each quesiton will display with a missing word. The user is then able to choose from 4 answers to fill in the blank. All questions are lyrics from popular songs allowing the quiz to be played by all ages. 
+Guess The Lyrics Quiz is an online, interactive quiz. Users will be able to answer a selection of multiple choice questions. Each question will display with a missing word. The user is then able to choose from 4 answers to fill in the blank. All questions are lyrics from popular songs allowing the quiz to be played by all ages. 
 
 The Guess the Lyrics Quiz is built using HTML, CSS and JavaScript. This quiz is a responsive website and can be viewed and played on mobiles, tablets and computers. This is my second project for Code Institute's Full Stack Developer Diploma course.
 
@@ -40,7 +40,7 @@ The live link can be found here - [Guess The Lyrics Quiz](https://philtipping31.
 
 ### Play Button
 
-- The Play Quiz button is also shown on the home page. The button has a hover affect allowing the user to know that the button can be interacted with.
+- The Play Quiz button is also shown on the home page. The button has a hover effect allowing the user to know that the button can be interacted with.
 - When the Play Quiz button is clicked it will take the user to the quiz.html page and they can begin answering the questions.
 
 ![Play Quiz](docs/play-quiz-btn.png). ![Play Quiz Hover](docs/play-quiz-btn-hover.png)
@@ -64,7 +64,7 @@ The live link can be found here - [Guess The Lyrics Quiz](https://philtipping31.
 ![Quiz Page](docs/quiz-page.png)
 
 - The main quiz page is simple yet visually pleasing. The background image is the same as the home page as well as the quiz area being the same style as the main info page. 
-- The header is still visible, allowing a user to go back to the home page at anytime during the quiz.
+- The header is still visible, allowing a user to go back to the home page at any time during the quiz.
 
 ### The Question and Answers
 
@@ -72,7 +72,7 @@ The live link can be found here - [Guess The Lyrics Quiz](https://philtipping31.
 
 ![Questions](docs/question-no-next-btn.png)
   
-- The answer buttons all have the same hover affect as other buttons on the site, showing the user they can interact with them.
+- The answer buttons all have the same hover effect as other buttons on the site, showing the user they can interact with them.
 
 ![Answer Hover](docs/questions-hover.png)
 
@@ -153,13 +153,13 @@ All browsers show the page correctly and as intended.
 | --------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ | ----------------------------------------------------- | ------ |
 | Does the Play Quiz button correctly load the quiz                                       | Click Play Quiz button                                                         | Loads the quiz.html page to begin the quiz            | Pass   |
 | Is the text on the home page clear to the user                                          | Check all text is clearly visible against the background                       | User can clearly see all text on the home page        | Pass   |
-| If background image doesn't load is the back up background suitable for the text colour | Removed background image and checked if the text is still visible to the user. | User can still clearly read all text on the home page | Pass   |
+| If background image doesn't load is the backup background suitable for the text colour | Removed background image and checked if the text is still visible to the user. | User can still clearly read all text on the home page | Pass   |
 
 ### Quiz Page
 
 | Test                                                                                               | Action                                                                                                                                                                   | Expected                                                                                                                      | Result |
 | -------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------- | ------ |
-| Do all questions correctly display in order                                                        | Run through the quiz mutliple times and check they are the same as they are listed in the JavaScript file                                                                | All questions run through the list of 14 as per the Javascript file                                                           | Pass   |
+| Do all questions correctly display in order                                                        | Run through the quiz multiple times and check they are the same as they are listed in the JavaScript file                                                                | All questions run through the list of 14 as per the Javascript file                                                           | Pass   |
 | Can the user choose from all 4 answers when the question is displayed                              | Load each question and check each answer is clickable. Repeat process for all 14 questions                                                                               | The user can select from one of the 4 options each time a question is displayed All options begin clickable.                  | Pass   |
 | When an answer is selected, does the correct answer and incorrect answer highlight correctly.      | Select a correct answer to see if it highlights correctly. Select an incorrect answer and see if it highlights correctly as well as showing the user the correct answer. | Correct answers show in green and incorrect answers show in red as well as show the user the correct answer in green.         | Pass   |
 | Once an answer is selected are all other answers disabled so the user can no longer click on them? | Select an answer and attempt to select another one.                                                                                                                      | Once answer is selected, the user can no longer select another option                                                         | Pass   |
@@ -182,7 +182,7 @@ All browsers show the page correctly and as intended.
 | Does the page appear when broken URL is entered                  | Enter additional text to live URL and check if the 404 Error page displays    | 404 Error page displays when broken URL entered            | Pass   |
 | Does the 'HERE' text direct the user back to website home page   | Click on there here text to see if the site is directed back to the home page | On clicking the here text, the home page reloads           | Pass   |
 
-### Reponsiveness
+### Responsiveness
 
 | Test                                                      | Action                                                                                                     | Expected                                                                                                          | Result |
 | --------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- | ------ |
@@ -227,15 +227,15 @@ All browsers show the page correctly and as intended.
 
   The site was deployed to GitHub pages during the creation of the site. During the learning time deploying the project earlier was advised. The steps to deploy are as follows:
 
-  - Go to GitHub repository.
+  - Go to the GitHub repository.
   - Click on "Settings".
   - Click on "Pages"(tab found on the left sidebar).
-  - Scroll to "Build and deployment" section.
+  - Scroll to the "Build and deployment" section.
   - Find the sub-section "Branch".
   - From the drop-down menu "none"/"select branch" change this to choose source "main" (or "master").
   - Click 'Save'
 
-Wait until you can see a link for deployed page within GitHub Page section. This can sometimes take a bit of time. Once the page updates you will see a message: "Your site is live at...
+Wait until you can see a link for the deployed page within the GitHub Page section. This can sometimes take a bit of time. Once the page updates you will see a message: "Your site is live at...
 
 The live link can be found here - [Guess The Lyrics Quiz](https://philtipping31.github.io/PP2---GuessTheLyrics/)
 
@@ -267,8 +267,8 @@ Navigate to the GitHub and locate the Repository you want to clone to use locall
 ## Credits
 
 - Other students and community leaders on Slack
-- Elements of the Love maths projecet from code institute.
-- My mentor for helping me out with issues, particularly with background colour changes when selecting the wrong answer. And just overal support with the course and project.
+- Elements of the 'Love maths' project from code institute.
+- My mentor, Daisy for helping me out with issues, particularly with background colour changes when selecting the wrong answer. And just overall support at the final stages of this project.
 - Stack Overflow for lots of help on areas I got stuck on.
 - I used [Online Convert](https://www.online-convert.com/result#j=da9e1849-dd3f-4e39-be93-86f649a506d5) to change background image from jpg to webp.
 
