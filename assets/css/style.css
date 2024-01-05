@@ -133,7 +133,7 @@ ul li {
     color: white;
     border: 2px solid grey;
     box-shadow: 0 0 4px 2px grey;
-    
+
 }
 
 .btn {
@@ -167,6 +167,22 @@ ul li {
     cursor: no-drop;
 }
 
+/* 404 Page */
+
+.container {
+    background-color: white;
+    text-align: center;
+    color: black;
+}
+
+.error-img {
+    width: 50%;
+}
+
+.here {
+    color: black;
+}
+
 
 
 /* Media Queries */
@@ -174,20 +190,20 @@ ul li {
 
 @media screen and (min-width: 768px) {
     .content-area {
-    margin: 35px 15px;
-    width: 60%;
-    height: 70vh;
-    background-color: rgba(51, 51, 51, 0.7);
-    padding: 15px;
-    border-radius: 8px;
-    border: 1.5px solid grey;
-    box-shadow: 0 0 8px 2px grey;
-    align-self: center;
-}
+        margin: 35px 15px;
+        width: 60%;
+        height: 70vh;
+        background-color: rgba(51, 51, 51, 0.7);
+        padding: 15px;
+        border-radius: 8px;
+        border: 1.5px solid grey;
+        box-shadow: 0 0 8px 2px grey;
+        align-self: center;
+    }
 
-#lyrics {
-    margin: 5%;
-    font-size: medium;
-}
+    #lyrics {
+        margin: 5%;
+        font-size: medium;
+    }
 
 }
