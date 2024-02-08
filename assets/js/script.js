@@ -142,9 +142,95 @@ const questions = [
         ]
     },
 
-    
+    {
+        question: "I set fire to the rain, watched it ________ as it touched your face",
+        answers: [
+            { text: "Pour", correct: true },
+            { text: "Fall", correct: false },
+            { text: "Burn", correct: false },
+            { text: "None of these", correct: false },
+        ]
+    },
 
+    {
+        question: "I'm on the pursuit of happiness and I know, everything that shine ain't always gunna be ________",
+        answers: [
+            { text: "Mine", correct: false },
+            { text: "Yours", correct: false },
+            { text: "Shiny", correct: false },
+            { text: "Gold", correct: true },
+        ]
+    },
 
+    {
+        question: "Feels like we're on the edge right now, I wish I could say i'm ________",
+        answers: [
+            { text: "Done", correct: false },
+            { text: "Happy", correct: false },
+            { text: "Proud", correct: true },
+            { text: "Sad", correct: false },
+        ]
+    },
+
+    {
+        question: "It's murder on the dancefloor, but you better not kill the ________",
+        answers: [
+            { text: "Music", correct: false },
+            { text: "Dancers", correct: false },
+            { text: "Speakers", correct: false },
+            { text: "Groove", correct: true },
+        ]
+    },
+
+       {
+           question: "Now it's raining more than ever, know we'll still have ________",
+        answers: [
+            { text: "Some Cover", correct: false },
+            { text: "Each other", correct: true },
+            { text: "Some Umberellas", correct: false },
+            { text: "None of these", correct: false },
+        ]
+    },
+
+       {
+        question: "We were just ________ when we fell in love",
+        answers: [
+            { text: "Kids", correct: true },
+            { text: "Small", correct: false },
+            { text: "Old", correct: false },
+            { text: "At school", correct: false },
+        ]
+    },
+
+    {
+        question: "You got a fast car and I want a ticket to ________",
+        answers: [
+            { text: "Everywhere", correct: false },
+            { text: "Your house", correct: false },
+            { text: "Somewhere", correct: false },
+            { text: "Anywhere", correct: true },
+        ]
+    },
+
+    {
+        question: "As I walk through the valley of the shadow of ________",
+        answers: [
+            { text: "Death", correct: true },
+            { text: "You", correct: false },
+            { text: "Mine", correct: false },
+            { text: "Life", correct: false },
+        ]
+    },
+
+    {
+        question: "That's me in the corner, that's me in the ________",
+        answers: [
+            { text: "Hallway", correct: false },
+            { text: "Doorway", correct: false },
+            { text: "Spotlight", correct: true },
+            { text: "Hot seat", correct: false },
+        ]
+    },
 
 ];
 
