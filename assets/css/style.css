@@ -105,7 +105,7 @@ h3 {
 
 #lyrics {
     margin: 5%;
-    font-size: small;
+    font-size: medium;
 }
 
 ul {
@@ -121,7 +121,7 @@ ul li {
 /* Buttons */
 
 .play-btn {
-    margin: 40px auto;
+    margin: auto;
     border-radius: 5px;
     padding: 12px 20px;
     font-size: 100%;
@@ -131,7 +131,7 @@ ul li {
 }
 
 .play-btn:hover {
-    margin: 40px auto;
+    margin: auto;
     border-radius: 5px;
     padding: 12px 20px;
     font-size: 100%;
@@ -239,12 +239,5 @@ ul li {
         box-shadow: 0 0 8px 2px grey;
         align-self: center;
     }
-
-    #lyrics {
-        margin: 5%;
-        font-size: medium;
-    }
-
-    
 
 }

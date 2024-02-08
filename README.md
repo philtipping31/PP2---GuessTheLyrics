@@ -6,7 +6,7 @@
 
 Test your lyrical knowledge and see if you can match the words to the right song lyrics in this engaging and entertaining online quiz.
 
-Guess The Lyrics Quiz is an online, interactive quiz. Users will be able to answer a selection of multiple choice questions. Each question will display with a missing word. The user is then able to choose from 4 answers to fill in the blank. All questions are lyrics from popular songs allowing the quiz to be played by all ages. 
+Guess The Lyrics Quiz is an online, interactive quiz. Users will be able to answer a selection of multiple choice questions. Each question will display with a missing word. The user is then able to choose from 4 answers to fill in the blank. The user will be able to test their knowldge against the clock with the timer that is visible during the quiz. When the quizends the user will be able to see how manu the guessed right and within what time. All questions are lyrics from popular songs allowing the quiz to be played by all ages. 
 
 The Guess the Lyrics Quiz is built using HTML, CSS and JavaScript. This quiz is a responsive website and can be viewed and played on mobiles, tablets and computers. This is my second project for Code Institute's Full Stack Developer Diploma course.
 
@@ -290,7 +290,7 @@ Navigate to the GitHub and locate the Repository you want to clone to use locall
 - JavaScript help was taken from [W3schools](https://www.w3chools.com)
 - Google fonts were used for all text on the webpage.
 - Some of the quiz content for lyrics and answers were taken from [Funtrivia](https://www.funtrivia.com/trivia-quiz/Music/Finish-the-Lyrics-233200.html) and [Trivir Creator](https://triviacreator.com/quiz/tbeRToU) as well as my own ideas.
-- [Font Awesome](https://fontawesome.com/icons/face-frown?f=classic&s=regular&sz=2xl) was used to get the icon for the 404 Error Page.
+- [Font Awesome](https://fontawesome.com/icons) was used to get the icon for the 404 Error Page and Footer.
 
 ## Youtube Tutorials
 
