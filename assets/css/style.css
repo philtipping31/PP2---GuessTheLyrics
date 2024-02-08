@@ -47,6 +47,32 @@ a {
     color: white;
 }
 
+/* Footer */
+
+#footer {
+    margin-top: auto;
+    padding-bottom: 10px;
+    width: 100vw;
+    font-family: 'DM Sans', sans-serif;
+    border-top: 2px solid grey;
+    box-shadow: 0 0 5px white;
+    color: white;
+    }
+
+#socials {
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    max-width: 300px;
+}
+
+#socials>li {
+    margin-top: 20px;
+    width: 20%;
+    list-style: none;
+}
+
 /* Content and Game area */
 
 .content-area {
