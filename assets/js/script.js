@@ -316,7 +316,7 @@ function selectAnswer(e) {
     const selectedBtn = e.target;
     const isCorrect = selectedBtn.dataset.correct === "true";
     const correct = document.querySelector("[data-correct='true']");
-
+    // Correct answer highlights in green if incorrect answer selected shows in red and shows correct in green
     if (isCorrect) {
         selectedBtn.style.backgroundColor = "green";
         score++;
@@ -328,6 +328,7 @@ function selectAnswer(e) {
         if (button.dataset.correct === "true") {
             button.classList.add("correct");
         }
+        //Disables buttons from being used after intial selection
         button.disabled = true;
     });
     nextButton.style.display = "block";
@@ -392,8 +393,9 @@ function showFinalScore() {
  * If there are more questions, it displays the next question; otherwise, it shows the final score.
  */
 function handleNextButton() {
+    //Increment question number
     currentQuestionIndex++;
-
+    //Max questions shown is 10
     const maxQuestions = 10;
 
     if (currentQuestionIndex < maxQuestions) {
@@ -404,7 +406,7 @@ function handleNextButton() {
 }
 
 
-// Add click event to handle next question if less tha 10 or it will start quiz.
+// Add click event to handle next question if less than 10 or it will start quiz.
 
 nextButton.addEventListener("click", () => {
     if (currentQuestionIndex < 10) {
