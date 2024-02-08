@@ -264,26 +264,36 @@ function startQuiz() {
     startTimer();
 }
 
-/** 
- * Gets question (lyrics) data from js file
- * Populates the question and the answer boxes
-*/
+/**
+ * Displays the current question along with its answer options.
+ * Resets the state before updating the next question.
+ */
 
 function showQuestion() {
     resetState();
-    let currentQuestion = questions[currentQuestionIndex];
+    const currentQuestion = questions[currentQuestionIndex];
     questionElement.innerHTML = currentQuestion.question;
 
     currentQuestion.answers.forEach(answer => {
-        const button = document.createElement("button");
-        button.innerHTML = answer.text;
-        button.classList.add("btn");
+        const button = createAnswerButton(answer.text, answer.correct);
         answerButtons.appendChild(button);
-        if (answer.correct) {
-            button.dataset.correct = answer.correct;
-        }
         button.addEventListener("click", selectAnswer);
     });
+}
+
+/**
+ * Creates a button element for an answer option.
+ */
+function createAnswerButton(text, isCorrect) {
+    const button = document.createElement("button");
+    button.innerHTML = text;
+    button.classList.add("btn");
+
+    if (isCorrect) {
+        button.dataset.correct = isCorrect;
+    }
+
+    return button;
 }
 
 /**

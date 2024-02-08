@@ -20,6 +20,7 @@ The live link can be found here - [Guess The Lyrics Quiz](https://philtipping31.
 - As a first time user, I want to be able to choose when the quiz begins.
 - As a first time user, I want to be able to see what answers I guess correctly and incorrectly.
 - As a first time user, I want to know how many answers I guessed correctly in the form of a score.
+- As a first time user, I want to see how quickly I answered all of the questions.
 - As a first time user, I want to be able to easily play the quiz again and as many times as I want.
 
 ### Returning User
@@ -88,6 +89,16 @@ The live link can be found here - [Guess The Lyrics Quiz](https://philtipping31.
 - After an answer has been selected, the 'Next' button will appear, allowing the user to click and navigate to the next question.
 
 ![Questions with Next](docs/questions-with-next-btn.png)
+
+## Timer
+
+- The timer is shown during the quiz and increments by 1 second at a time. This only increments as the user is playing the quiz.
+  
+![Timer](docs/timer.png)
+  
+- When the quiz finishes it will tell the user how quickly they answered all of the questions.
+
+![Timer Score](docs/timer_score.png)
 
 
 ## Scores Page
