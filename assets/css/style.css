@@ -116,7 +116,7 @@ ul li {
 }
 
 .submit-btn {
-    margin: 25px auto;
+    margin: 5px auto;
     border-radius: 5px;
     padding: 12px 20px;
     font-size: 100%;
@@ -126,7 +126,7 @@ ul li {
 }
 
 .submit-btn:hover {
-    margin: 25px auto;
+    margin: 5px auto;
     border-radius: 5px;
     padding: 12px 20px;
     font-size: 100%;
