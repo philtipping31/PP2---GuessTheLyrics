@@ -154,6 +154,9 @@ const questionElement = document.getElementById("lyrics");
 const answerButtons = document.getElementById("answer-buttons");
 const nextButton = document.getElementById("next-btn");
 let score = 0;
+let timerMinutes = 0;
+let timerSeconds = 0;
+let timerInterval;
 
 
 /* Variable so questions are shuffled so different question is displayed each time you play */
@@ -172,6 +175,7 @@ function startQuiz() {
     score = 0;
     nextButton.innerHTML = "Next";
     showQuestion();
+    startTimer();
 }
 
 /** 
@@ -233,13 +237,33 @@ function selectAnswer(e) {
     nextButton.style.display = "block";
 }
 
+//Function to start the timer. Timer updates per second on quiz
+function startTimer() {
+    timerInterval = setInterval(function () {
+        if (timerSeconds === 59) {
+            //If seconds reach to 59, increment minutes and reset seconds to 0
+            timerMinutes++;
+            timerSeconds = 0;
+        } else {
+            //Increment seconds
+            timerSeconds++;
+        }
+        //Format the timer displayed
+        const formattedMinutes = timerMinutes < 10 ? `0${timerMinutes}` : timerMinutes;
+        const formattedSeconds = timerSeconds < 10 ? `0${timerSeconds}` : timerSeconds;
+        document.getElementById("timer").textContent = `${formattedMinutes}:${formattedSeconds}`;
+    }, 1000);
+}
+
 /**
  * Shows score at then end of the quiz
  * Updates question element with total score
  * Allows user to play again by display the Play Again button*/
 
 function showFinalScore() {
-    
+    // Stop the timer
+    clearInterval(timerInterval);
+    document.getElementById("timer-container").style.display = "none";
     resetState();
     if (score === 10) {
         questionElement.innerHTML = `Well done for completing the lyrics quiz! You're a lyrical genius'! <p>You scored ${score} out of 10. </p> 
