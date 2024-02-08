@@ -142,6 +142,8 @@ const questions = [
         ]
     },
 
+
+
 ];
 
 
@@ -149,9 +151,12 @@ const questions = [
 const questionElement = document.getElementById("lyrics");
 const answerButtons = document.getElementById("answer-buttons");
 const nextButton = document.getElementById("next-btn");
-
-let currentQuestionIndex = 0;
 let score = 0;
+
+
+/* Variable so questions are shuffled so different question is displayed each time you play */
+let shuffledQuestions, currentQuestionIndex;
+
 
 
 /**
@@ -161,6 +166,7 @@ let score = 0;
 
 function startQuiz() {
     currentQuestionIndex = 0;
+    shuffledQuestions = questions.sort(() => Math.random() - .5);
     score = 0;
     nextButton.innerHTML = "Next";
     showQuestion();
