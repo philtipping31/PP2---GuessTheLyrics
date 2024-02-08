@@ -294,7 +294,7 @@ Navigate to the GitHub and locate the Repository you want to clone to use locall
 
 ## Youtube Tutorials
 
-Code structure, assistance, ideas and logic for JavaScript have been taken from a combination of these videos.
+I watched all of these videos to help with the code code structure, general assistance, ideas and loic. Some JavaScript have been taken from a combination of these videos.
 
 - <https://www.youtube.com/watch?v=riDzcEQbX6k&t=2s&ab_channel=WebDevSimplified>
 - <https://www.youtube.com/watch?v=PBcqGxrr9g8&ab_channel=GreatStack>

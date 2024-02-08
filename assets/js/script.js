@@ -352,9 +352,9 @@ function startTimer() {
 }
 
 /**
- * Shows score at then end of the quiz
- * Updates question element with total score
- * Allows user to play again by display the Play Again button*/
+ * Shows score at then end of the quiz with timer info.
+ * Updates question element with total score based on amount of correct answers.
+ * Allows user to play again by displaying the Play Again button*/
 
 function showFinalScore() {
     // Stop the timer
@@ -388,13 +388,15 @@ function showFinalScore() {
 }
 
 /**
- * Increases question index if less than question total
- * If end of question index shows final score page
+ * Handles the logic for the "Next" button, incrementing the question index.
+ * If there are more questions, it displays the next question; otherwise, it shows the final score.
  */
-
 function handleNextButton() {
     currentQuestionIndex++;
-    if (currentQuestionIndex < 10) {
+
+    const maxQuestions = 10;
+
+    if (currentQuestionIndex < maxQuestions) {
         showQuestion();
     } else {
         showFinalScore();
@@ -402,7 +404,8 @@ function handleNextButton() {
 }
 
 
-// Add click event to handle question or start quiz
+// Add click event to handle next question if less tha 10 or it will start quiz.
+
 nextButton.addEventListener("click", () => {
     if (currentQuestionIndex < 10) {
         handleNextButton();
