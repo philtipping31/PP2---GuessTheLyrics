@@ -282,7 +282,11 @@ function showQuestion() {
 }
 
 /**
- * Creates a button element for an answer option.
+ * Creates an answer button with the specified text and additional attributes.
+ * Adds the text to be displayed on the button.
+ * Shows whether the answer is correct or not.
+ * If answer is correct, the button will be marked as correct using a dataset attribute.
+ * Returns the created answer button with the specified text and attributes.
  */
 function createAnswerButton(text, isCorrect) {
     const button = document.createElement("button");
