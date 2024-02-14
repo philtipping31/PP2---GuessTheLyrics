@@ -245,7 +245,7 @@ let timerSeconds = 0;
 let timerInterval;
 
 
-/* Variable so questions are shuffled so different question is displayed each time you play */
+/* Variable so questions are shuffled so different question order is displayed each time you play */
 let shuffledQuestions, currentQuestionIndex;
 
 
@@ -267,6 +267,7 @@ function startQuiz() {
 /**
  * Displays the current question along with its answer options.
  * Resets the state before updating the next question.
+ * Adds event listeners to each answer button for handling user interaction.
  */
 
 function showQuestion() {
@@ -301,7 +302,8 @@ function createAnswerButton(text, isCorrect) {
 }
 
 /**
- * Hides next button when question is initially displayed
+ * Resets the state by hiding the next button and removing all answer buttons.
+ * This function is called before displaying a new question.
  */
 
 function resetState() {
