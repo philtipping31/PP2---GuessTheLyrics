@@ -66,6 +66,8 @@ The live link can be found here - [Guess The Lyrics Quiz](https://philtipping31.
 
 - The main quiz page is simple yet visually pleasing. The background image is the same as the home page as well as the quiz area being the same style as the main info page. 
 - The header is still visible, allowing a user to go back to the home page at any time during the quiz.
+- Question is displayed along with the answers.
+- Timer is shown at the top of the quiz container and increments in seconds as the user stays playing the quiz.
 
 ### The Question and Answers
 
@@ -105,10 +107,10 @@ The live link can be found here - [Guess The Lyrics Quiz](https://philtipping31.
 
 ![Scores](docs/score-page.png)
 
-### End of Quiz
-
 - The scores page is in place to show the user they have completed the quiz.
 - The user will be able to see how many answers they answered correctly and out of how many questions that are in the quiz.
+- The user will get a different message based on how many questions they answered correctly.
+- The time in which the user took to answer the questions will also show on this page.
 - There is an option for the user to click "Play Again". This reloads the page and resets the scores allowing the user to play the quiz again to see if they can beat their last score.
 
 ## 404 Page 
@@ -127,16 +129,18 @@ The live link can be found here - [Guess The Lyrics Quiz](https://philtipping31.
 
 ![Home Page Mobile](docs/home-page-mobile.png)
 
-![Quiz Page Mobile](docs/incorrect-answer-phone.png)
+![Quiz Page Mobile](docs/quiz-page-mobile.png)
 
 ![Score Page Mobile](docs/score-page-mobile.png)
 
 
 ## Features left to implement
 
-- Timer feature so users can test their knowledge against the clock.
 - Add a Login page so a user can create an account and link with a leaderboard to see how they do against other players.
-- Add more questions and different difficulty settings.
+- Add different difficulty settings.
+- User customisation to choose how many questions they want to get asked.
+- Time limit on how long a question displays.
+
 
 # Testing
 
@@ -211,7 +215,7 @@ All browsers show the page correctly and as intended.
 - CSS
   - No errors were found when passing through the official [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/validator)
 
-(docs/css-validator.png)
+![CSS Validator](docs/css-validator.png)
 
 - JavaScript
   - I ran my Javascript code through [JSHint](https://jshint.com/) - no warnings show. 
