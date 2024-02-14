@@ -363,28 +363,28 @@ function showFinalScore() {
     document.getElementById("timer-container").style.display = "none";
     resetState();
     if (score === 10) {
-        questionElement.innerHTML = `Well done for completing the lyrics quiz! You're a lyrical genius'! <p>You scored ${score} out of 10 questions correctly in ${timerMinutes} mins : ${timerSeconds} secs. </p>
-    <p>Want to try again? Just click Play Again to retry the quiz. </p>
-    <button class="play-btn" onclick="location.reload()">Play Again!</button>`;
+        questionElement.innerHTML = `Well done for completing the lyrics quiz! You're a lyrical genius'! You scored ${score} out of 10 questions correctly in ${timerMinutes} mins : ${timerSeconds} secs. 
+        Want to try again? Just click Play Again to retry the quiz.
+        <button class="play-btn" onclick="location.reload()">Play Again!</button>`;
     } else if (score > 6) {
-        questionElement.innerHTML = `Well done for completing the lyrics quiz! You did pretty well! <p>You scored ${score} out of 10 questions correctly in ${timerMinutes} mins : ${timerSeconds} secs.. </p>
-    <p>Want to try again? Just click Play Again to retry the quiz. </p>
-    <button class="play-btn" onclick="location.reload()">Play Again!</button>`;
+        questionElement.innerHTML = `Well done for completing the lyrics quiz! You did pretty well! You scored ${score} out of 10 questions correctly in ${timerMinutes} mins : ${timerSeconds} secs.
+        Want to try again? Just click Play Again to retry the quiz.
+        <button class="play-btn" onclick="location.reload()">Play Again!</button>`;
     } else if (score > 4) {
-        questionElement.innerHTML = `You've completed the lyrics quiz! You did okay! <p>You scored ${score} out of 10 questions correctly in ${timerMinutes} mins : ${timerSeconds} secs.. </p>
-    <p>Want to try again? Just click Play Again to retry the quiz. </p>
-    <button class="play-btn" onclick="location.reload()">Play Again!</button>`;
+        questionElement.innerHTML = `You've completed the lyrics quiz! You did okay! You scored ${score} out of 10 questions correctly in ${timerMinutes} mins : ${timerSeconds} secs.
+        Want to try again? Just click Play Again to retry the quiz.
+        <button class="play-btn" onclick="location.reload()">Play Again!</button>`;
     } else if (score > 2) {
-        questionElement.innerHTML = `You've completed the lyrics quiz! That was a pretty poor attempt! < p > You scored ${score} out of 10 questions correctly in ${timerMinutes} mins : ${timerSeconds} secs.. </p >
-    <p>Want to try again? Just click Play Again to retry the quiz. </p>
-    <button class="play-btn" onclick="location.reload()">Play Again!</button>`;
+        questionElement.innerHTML = `You've completed the lyrics quiz! That was a pretty poor attempt! You scored ${score} out of 10 questions correctly in ${timerMinutes} mins : ${timerSeconds} secs.
+        Want to try again? Just click Play Again to retry the quiz.
+        <button class="play-btn" onclick="location.reload()">Play Again!</button>`;
     } else if (score > 0) {
-        questionElement.innerHTML = `You've completed the lyrics quiz! You Failed! <p>You scored ${score} out of 10 questions correctly in ${timerMinutes} mins : ${timerSeconds} secs.. </p>
-    <p>Want to try again? Just click Play Again to retry the quiz. </p>
-    <button class="play-btn" onclick="location.reload()">Play Again!</button>`;
+        questionElement.innerHTML = `You've completed the lyrics quiz! You Failed! You scored ${score} out of 10 questions correctly in ${timerMinutes} mins : ${timerSeconds} secs.
+        Want to try again? Just click Play Again to retry the quiz.
+        <button class="play-btn" onclick="location.reload()">Play Again!</button>`;
     } else {
-        questionElement.innerHTML = `Something strange has happened here. <p>Want to try again? Just click Play Again to retry the quiz. </p>
-    <button class="play-btn" onclick="location.reload()">Play Again!</button>`;
+        questionElement.innerHTML = `Something strange has happened here. Want to try again? Just click Play Again to retry the quiz.
+        <button class="play-btn" onclick="location.reload()">Play Again!</button>`;
     }
 }
 
