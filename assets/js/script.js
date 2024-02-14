@@ -1,3 +1,5 @@
+/* Base code structure taken from https://www.youtube.com/watch?v=PBcqGxrr9g8&ab_channel=GreatStack */
+
 /* lyrics and answers content */
 
 
@@ -85,7 +87,7 @@ const questions = [
     {
         question: "I want a brand new house on an episode of Cribs and a bathroom I can ________ in ",
         answers: [
-            { text: "Sunabathe", correct: false },
+            { text: "Sunbathe", correct: false },
             { text: "Eat lunch", correct: false },
             { text: "Play football", correct: false },
             { text: "Play baseball", correct: true },
@@ -235,6 +237,7 @@ const questions = [
 ];
 
 
+/* Global Variables */
 
 const questionElement = document.getElementById("lyrics");
 const answerButtons = document.getElementById("answer-buttons");
@@ -243,8 +246,6 @@ let score = 0;
 let timerMinutes = 0;
 let timerSeconds = 0;
 let timerInterval;
-
-
 /* Variable so questions are shuffled so different question order is displayed each time you play */
 let shuffledQuestions, currentQuestionIndex;
 
@@ -318,8 +319,8 @@ function resetState() {
  * Disable other buttons after selecting answer
  * Show Next button */
 
-function selectAnswer(e) {
-    const selectedBtn = e.target;
+function selectAnswer(choice) {
+    const selectedBtn = choice.target;
     const isCorrect = selectedBtn.dataset.correct === "true";
     const correct = document.querySelector("[data-correct='true']");
     // Correct answer highlights in green if incorrect answer selected shows in red and shows correct in green
@@ -332,7 +333,6 @@ function selectAnswer(e) {
     }
     Array.from(answerButtons.children).forEach(button => {
         if (button.dataset.correct === "true") {
-            button.classList.add("correct");
         }
         //Disables buttons from being used after intial selection
         button.disabled = true;
@@ -385,12 +385,12 @@ function showFinalScore() {
         <p>Want to try again? Just click Play Again to retry the quiz.</p>
         </br>
         <button class="play-btn" onclick="location.reload()">Play Again!</button>`;
-    } else if (score > 2) {
+    } else if (score > 0) {
         questionElement.innerHTML = `You've completed the lyrics quiz! <p>That was a pretty poor attempt!</p> <p>You scored ${score} out of 10 questions correctly in ${timerMinutes} mins : ${timerSeconds} secs.</p>
         <p>Want to try again? Just click Play Again to retry the quiz.</p>
         </br>
         <button class="play-btn" onclick="location.reload()">Play Again!</button>`;
-    } else if (score > 0) {
+    } else if (score == 0) {
         questionElement.innerHTML = `You've completed the lyrics quiz! <p>You Failed!</p> <p>You scored ${score} out of 10 questions correctly in ${timerMinutes} mins : ${timerSeconds} secs.</p>
         <p>Want to try again? Just click Play Again to retry the quiz.</p>
         </br>

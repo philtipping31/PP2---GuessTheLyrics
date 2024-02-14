@@ -257,7 +257,7 @@ The live link can be found here - [Guess The Lyrics Quiz](https://philtipping31.
 
 ### Version Control
 
-The site was created using the CodeAnywhere code editor and pushed to github to the remote repository ‘Guess-the-lyrics-quiz’.
+The site was initially created using the CodeAnywhere code editor and pushed to github to the remote repository ‘Guess-the-lyrics-quiz’. I finished off the code in GitPod due to issues with the CodeAnywhere IDE.
 
 The following git commands were used throughout development to push code to the remote repo:
 
@@ -316,7 +316,7 @@ This youtube video was followed and code was taken from this for the following s
 - startQuiz function, however I have added the shufflequestions section and the call to start the timer function.
 - showQuestion function, however I have written this differently to the video and split it into two functions to create a createAnswerButton function as well.
 - resetState function to clear the current question ready to reload the next one.
-- selectAnswer function, this was used but refactored and used in a different way to assign the colours to the answer buttons without adding classes.
+- selectAnswer function, this was used but refactored and used in a slightly different way to assign the colours to the answer buttons without adding classes.
 - nextbutton event listener code, changed to only factor in 10 questions.
 - handleNextButton, however I changed the logic of this code to deal with 10 questions and use of const to define MaxQuestions.
 
