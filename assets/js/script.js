@@ -340,18 +340,20 @@ function selectAnswer(e) {
     nextButton.style.display = "block";
 }
 
-//Function to start the timer. Timer updates per second on quiz
+/**
+ * Starts a timer interval to track elapsed time on the quiz.
+ * The timer updates every second the user plays the quiz.
+ * If seconds reach 59, minutes are incremented, and seconds are reset to 0.
+ * The timer is displayed on the HTML element with the id "timer."
+ */
 function startTimer() {
     timerInterval = setInterval(function () {
         if (timerSeconds === 59) {
-            //If seconds reach to 59, increment minutes and reset seconds to 0
             timerMinutes++;
             timerSeconds = 0;
         } else {
-            //Increment seconds
             timerSeconds++;
         }
-        //Format the timer displayed
         const formattedMinutes = timerMinutes < 10 ? `0${timerMinutes}` : timerMinutes;
         const formattedSeconds = timerSeconds < 10 ? `0${timerSeconds}` : timerSeconds;
         document.getElementById("timer").textContent = `${formattedMinutes}:${formattedSeconds}`;
