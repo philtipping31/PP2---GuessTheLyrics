@@ -257,7 +257,7 @@ let shuffledQuestions, currentQuestionIndex;
 
 function startQuiz() {
     currentQuestionIndex = 0;
-    shuffledQuestions = questions.sort(() => Math.random() - .5);
+    shuffledQuestions = questions.sort(() => Math.random() - 0.5);
     score = 0;
     nextButton.innerHTML = "Next";
     showQuestion();

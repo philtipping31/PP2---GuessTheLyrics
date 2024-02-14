@@ -140,6 +140,7 @@ The live link can be found here - [Guess The Lyrics Quiz](https://philtipping31.
 - Add different difficulty settings.
 - User customisation to choose how many questions they want to get asked.
 - Time limit on how long a question displays.
+- Leaderboard
 
 
 # Testing
@@ -213,7 +214,7 @@ All browsers show the page correctly and as intended.
 ![HTML Check](docs/html-validator.png)
 
 - CSS
-  - No errors were found when passing through the official [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/validator)
+  - No errors were found when passing through the official [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)
 
 ![CSS Validator](docs/css-validator.png)
 
