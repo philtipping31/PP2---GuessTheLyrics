@@ -280,24 +280,37 @@ Navigate to the GitHub and locate the Repository you want to clone to use locall
 - Other students and community leaders on Slack
 - Elements of the 'Love maths' project from code institute.
 - My mentor, Daisy for helping me out with issues, particularly with background colour changes when selecting the wrong answer. And just overall support at the final stages of this project.
-- Stack Overflow for lots of help on areas I got stuck on.
 - I used [Online Convert](https://www.online-convert.com/result#j=da9e1849-dd3f-4e39-be93-86f649a506d5) to change background image from jpg to webp.
 
 ### Content
 
-- The background image was taken from [Pexels](https://www.pexels.com/search/)
+- The background image was taken from [Pexels](https://www.pexels.com/photo/black-turntable-1653090/)
 - Instructions on how to fix certain HTML and CSS elements were from [W3schools](https://www.w3schools.com)
-- JavaScript help was taken from [W3schools](https://www.w3chools.com)
 - Google fonts were used for all text on the webpage.
-- Some of the quiz content for lyrics and answers were taken from [Funtrivia](https://www.funtrivia.com/trivia-quiz/Music/Finish-the-Lyrics-233200.html) and [Trivir Creator](https://triviacreator.com/quiz/tbeRToU) as well as my own ideas.
+- Some of the quiz content for lyrics and answers were taken from [Funtrivia](https://www.funtrivia.com/trivia-quiz/Music/Finish-the-Lyrics-233200.html) and [Trivir Creator](https://triviacreator.com/quiz/tbeRToU) as well as my own content.
 - [Font Awesome](https://fontawesome.com/icons) was used to get the icon for the 404 Error Page and Footer.
+- [mdn web docs](https://developer.mozilla.org/en-US/docs/Web/API/setInterval) I read through this document to help me understand the setInterval() function to help with the timer logic.
+- [Stack Overflow](https://stackoverflow.com/questions/31559469/how-to-create-a-simple-javascript-timer) This page helped me understand how to code a timer in Javascript.
+- Code Institute walkthroughs and learning material to help with syntax and other JavaScript features.
+
 
 ## Youtube Tutorials
 
-I watched all of these videos to help with the code code structure, general assistance, ideas and loic. Some JavaScript have been taken from a combination of these videos.
+I watched all of these videos to help with the code code structure, general assistance, ideas and logic on how to build a quiz. 
 
 - <https://www.youtube.com/watch?v=riDzcEQbX6k&t=2s&ab_channel=WebDevSimplified>
-- <https://www.youtube.com/watch?v=PBcqGxrr9g8&ab_channel=GreatStack>
 - <https://www.youtube.com/watch?v=WiLTsxjCmWQ&t=591s&ab_channel=DearProgrammer>
 - <https://www.youtube.com/watch?v=Vp8x8-reqZA&ab_channel=Codehal>
+
+
+[Great Stack Video]<https://www.youtube.com/watch?v=PBcqGxrr9g8&ab_channel=GreatStack> 
+
+This youtube video was followed and code was taken from this for the following sections:
+
+- startQuiz function, however I have added the shufflequestions section and the call to start the timer function.
+- showQuestion function, however I have written this differently to the video and split it into two functions to create a createAnswerButton function as well.
+- resetState function to clear the current question ready to reload the next one.
+- selectAnswer function, this was used but refactored and used in a different way to assign the colours to the answer buttons without adding classes.
+- nextbutton event listener code, changed to only factor in 10 questions.
+- handleNextButton, however I changed the logic of this code to deal with 10 questions and use of const to define MaxQuestions.
 
