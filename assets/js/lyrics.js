@@ -332,4 +332,74 @@ const questions = [
         ]
     },
 
+    {
+        question: "Look at you in that ________ Girl you dangerous like a gun ",
+        answers: [
+            { text: "Shirt", correct: false },
+            { text: "Dress", correct: true },
+            { text: "Car", correct: false },
+            { text: "Shop", correct: false },
+        ]
+    },
+
+    {
+        question: "Something in the orange tells me we're not ________ ",
+        answers: [
+            { text: "Finished", correct: false },
+            { text: "Completed", correct: false },
+            { text: "Done", correct: true },
+            { text: "Over", correct: false },
+        ]
+    },
+
+    {
+        question: "It was 1989, my thoughts were short my hair was ________ ",
+        answers: [
+            { text: "Long", correct: true },
+            { text: "Gone", correct: false },
+            { text: "Blonde", correct: false },
+            { text: "Wet", correct: false },
+        ]
+    },
+
+    {
+        question: "I come and I go, tell me all the ways you need ________ ",
+        answers: [
+            { text: "Sleep", correct: false },
+            { text: "Me", correct: true },
+            { text: "A drive", correct: false },
+            { text: "Food", correct: false },
+        ]
+    },
+
+    {
+        question: "Well she moves like lightening and she counts to ________ ",
+        answers: [
+            { text: "One", correct: false },
+            { text: "Two", correct: false },
+            { text: "Three", correct: true },
+            { text: "Four", correct: false },
+        ]
+    },
+
+    {
+        question: "I have this thing where I get older but just never ________ ",
+        answers: [
+            { text: "Smaller", correct: false },
+            { text: "Wiser", correct: true },
+            { text: "Taller", correct: false },
+            { text: "Younger", correct: false },
+        ]
+    },
+
+    {
+        question: "Ooh girl, you're shining, like a 5th avenue ________ ",
+        answers: [
+            { text: "Road Sign", correct: false },
+            { text: "Sidewalk", correct: false },
+            { text: "Diamond", correct: true },
+            { text: "Street Lamp", correct: false },
+        ]
+    },
+
 ];
