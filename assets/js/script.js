@@ -36,8 +36,11 @@ function startQuiz() {
 
 function showQuestion() {
     resetState();
+    const currentQuestionNumber = document.getElementById("question-no");
     const currentQuestion = questions[currentQuestionIndex];
     questionElement.innerHTML = currentQuestion.question;
+    let nextQuestionNumber = currentQuestionIndex + 1;
+    currentQuestionNumber.innerText = "Question " + nextQuestionNumber;
 
     currentQuestion.answers.forEach(answer => {
         const button = createAnswerButton(answer.text, answer.correct);
@@ -132,6 +135,7 @@ function showFinalScore() {
     // Stop the timer
     clearInterval(timerInterval);
     document.getElementById("timer-container").style.display = "none";
+    document.getElementById("question-no").style.display = "none";
     resetState();
     if (score === 10) {
         questionElement.innerHTML = `Well done for completing the lyrics quiz! <p>You're a lyrical genius!</p> <p>You scored ${score} out of 10 questions correctly in ${timerMinutes} mins : ${timerSeconds} secs.</p> 
