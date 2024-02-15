@@ -302,21 +302,22 @@ Navigate to the GitHub and locate the Repository you want to clone to use locall
 
 ## Youtube Tutorials
 
-I watched all of these videos to help with the code code structure, general assistance, ideas and logic on how to build a quiz. 
+I watched these videos to help with the logic on how to build a quiz game using JavaScript. 
 
 - <https://www.youtube.com/watch?v=riDzcEQbX6k&t=2s&ab_channel=WebDevSimplified>
 - <https://www.youtube.com/watch?v=WiLTsxjCmWQ&t=591s&ab_channel=DearProgrammer>
 - <https://www.youtube.com/watch?v=Vp8x8-reqZA&ab_channel=Codehal>
 
 
-[Great Stack Video]<https://www.youtube.com/watch?v=PBcqGxrr9g8&ab_channel=GreatStack> 
 
-This youtube video was followed and code was taken from this for the following sections:
+This youtube video was followed closly and code was taken from this for the following functions:
+
+![Great Stack Video](https://www.youtube.com/watch?v=PBcqGxrr9g8&ab_channel=GreatStack)
 
 - startQuiz function, however I have added the shufflequestions section and the call to start the timer function.
 - showQuestion function, however I have written this differently to the video and split it into two functions to create a createAnswerButton function as well.
 - resetState function to clear the current question ready to reload the next one.
 - selectAnswer function, this was used but refactored and used in a slightly different way to assign the colours to the answer buttons without adding classes.
 - nextbutton event listener code, changed to only factor in 10 questions.
-- handleNextButton, however I changed the logic of this code to deal with 10 questions and use of const to define MaxQuestions.
+- handleNextButton, however I changed the setup of this code to deal with 10 questions and use of const to define MaxQuestions.
 
