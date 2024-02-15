@@ -68,12 +68,13 @@ The live link can be found here - [Guess The Lyrics Quiz](https://philtipping31.
 - The header is still visible, allowing a user to go back to the home page at any time during the quiz.
 - Question is displayed along with the answers.
 - Timer is shown at the top of the quiz container and increments in seconds as the user stays playing the quiz.
+- The question number is shown and will increase by one for each question.
 
 ### The Question and Answers
 
 - Initially the first question (lyrics) will display with 4 options for the user to choose from to complete the lyrics.
 
-![Questions](docs/question-no-next-btn.png)
+![Questions](docs/questions.png)
   
 - The answer buttons all have the same hover effect as other buttons on the site, showing the user they can interact with them.
 
@@ -81,16 +82,13 @@ The live link can be found here - [Guess The Lyrics Quiz](https://philtipping31.
 
 - Once an answer has been selected the answer selected will either highlight 'green' for correct or 'red' for incorrect.
 - If an incorrect answer is selected the correct answer will be highlighted in green so the user can see the option they should have picked to get the answer correct.
+- After an answer has been selected, all other options will be disabled. This is to stop the user being able to select a different answer after their first guess.
+- After an answer has been selected, the 'Next' button will appear, allowing the user to click and navigate to the next question.
 
 ![Correct Answer](docs/correct-answer.png)
 
 ![Incorrect Answer](docs/incorrect-answer.png)
 
-
-- After an answer has been selected, all other options will be disabled. This is to stop the user being able to select a different answer after their first guess.
-- After an answer has been selected, the 'Next' button will appear, allowing the user to click and navigate to the next question.
-
-![Questions with Next](docs/questions-with-next-btn.png)
 
 ## Timer
 
@@ -173,14 +171,16 @@ All browsers show the page correctly and as intended.
 
 ### Quiz Page
 
-| Does a total of 10 questions display. After the 10th question, scores page is shown.               | Run through the quiz multiple times and check that 10 questions display before the quiz ends.                                                                                                                                                  | 10 questions are shown at random from the js file. After the 10th question the scores are shown.                              | Pass |
-| -------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------- | ---- |
-| Can the user choose from all 4 answers when the question is displayed                              | Load each question and check each answer is clickable. Repeat process for all 10 questions                                                                                                                                                     | The user can select from one of the 4 options each time a question is displayed. All options begin clickable.                 | Pass |
-| When an answer is selected, does the correct answer and incorrect answer highlight correctly.      | Select a correct answer to see if it highlights correctly. Select an incorrect answer and see if it highlights correctly as well as showing the user the correct answer.                                                                       | Correct answers show in green and incorrect answers show in red as well as show the user the correct answer in green.         | Pass |
-| Once an answer is selected are all other answers disabled so the user can no longer click on them? | Select an answer and attempt to select another one.                                                                                                                                                                                            | Once answer is selected, the user can no longer select another option                                                         | Pass |
-| When an answer is selected, does the next button appear                                            | Select an answer and see the next button appear to go to the next question                                                                                                                                                                     | The Next button appears correctly after an answer is selected                                                                 | Pass |
-| Does clicking the next button load a new question and answers                                      | Click Next and see if the next question shows with the answer options linked to it.                                                                                                                                                            | After clicking next, the next question in the index is loaded with all of the answer options linked to that specific question | Pass |
-| Does the timer show and increment during the quiz                                                  | Play the quiz, and check that the timer displays. Also wait until 59 seconds are up to check the timer then goes to minutes and then increments the seconds again, When it gets to the next 59 seconds, ensure that the minute is incremented. | Timer shows and counts correctly.                                                                                             | Pass |
+| Test                                                                                               | Action                                                                                                                                                                                                                                         | Expected                                                                                                                      | Result |
+| -------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------- | ------ |
+| Does a total of 10 questions display. After the 10th question, scores page is shown.               | Run through the quiz multiple times and check that 10 questions display before the quiz ends.                                                                                                                                                  | 10 questions are shown at random from the js file. After the 10th question the scores are shown.                              | Pass   |
+| Can the user choose from all 4 answers when the question is displayed                              | Load each question and check each answer is clickable. Repeat process for all 10 questions                                                                                                                                                     | The user can select from one of the 4 options each time a question is displayed. All options begin clickable.                 | Pass   |
+| When an answer is selected, does the correct answer and incorrect answer highlight correctly.      | Select a correct answer to see if it highlights correctly. Select an incorrect answer and see if it highlights correctly as well as showing the user the correct answer.                                                                       | Correct answers show in green and incorrect answers show in red as well as show the user the correct answer in green.         | Pass   |
+| Once an answer is selected are all other answers disabled so the user can no longer click on them? | Select an answer and attempt to select another one.                                                                                                                                                                                            | Once answer is selected, the user can no longer select another option                                                         | Pass   |
+| When an answer is selected, does the next button appear                                            | Select an answer and see the next button appear to go to the next question                                                                                                                                                                     | The Next button appears correctly after an answer is selected                                                                 | Pass   |
+| Does clicking the next button load a new question and answers                                      | Click Next and see if the next question shows with the answer options linked to it.                                                                                                                                                            | After clicking next, the next question in the index is loaded with all of the answer options linked to that specific question | Pass   |
+| Does the timer show and increment during the quiz                                                  | Play the quiz, and check that the timer displays. Also wait until 59 seconds are up to check the timer then goes to minutes and then increments the seconds again, When it gets to the next 59 seconds, ensure that the minute is incremented. | Timer shows and counts correctly.                                                                                             | Pass   |
+| Does the question number appear i.e Question 1 and then increment for each question correctly.     | Run through the quiz and ensure the question number correct goes through from 1 - 10                                                                                                                                                           | Question number shows correctly throughout and increments correctly.                                                          | Pass   |                                                                                           | Pass |
 
 ### Scores Page
 
