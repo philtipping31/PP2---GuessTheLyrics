@@ -1,4 +1,14 @@
-/* Base code structure taken from https://www.youtube.com/watch?v=PBcqGxrr9g8&ab_channel=GreatStack */
+/* Base code structure taken from https://www.youtube.com/watch?v=PBcqGxrr9g8&ab_channel=GreatStack
+* Following code credited:
+* startQuiz function, however shufflequestions section added and the call to start the timer function.
+* showQuestion function, however code written differently to the video with additional code and split it into two functions to create a createAnswerButton function as well.
+* resetState function to clear the current question ready to reload the next one.
+* selectAnswer function, this was used but refactored and used in a slightly different way to assign the colours to the answer buttons without adding classes.
+* nextbutton event listener code, changed to only factor in 10 questions.
+* handleNextButton, however I changed the setup of this code to deal with 10 questions and use of const to define MaxQuestions.
+ */
+
+
 
 /* Global Variables */
 
@@ -114,12 +124,14 @@ function selectAnswer(choice) {
  */
 function startTimer() {
     timerInterval = setInterval(function () {
+        // Seconds increment to 59 then increment minute by 1
         if (timerSeconds === 59) {
             timerMinutes++;
             timerSeconds = 0;
         } else {
             timerSeconds++;
         }
+        //Format timer and display on quiz
         const formattedMinutes = timerMinutes < 10 ? `0${timerMinutes}` : timerMinutes;
         const formattedSeconds = timerSeconds < 10 ? `0${timerSeconds}` : timerSeconds;
         document.getElementById("timer").textContent = `${formattedMinutes}:${formattedSeconds}`;
