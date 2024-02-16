@@ -93,6 +93,16 @@ a {
 
 }
 
+#name {
+    margin: 5% auto;
+    border-radius: 5px;
+    padding: 12px 20px;
+    font-size: 100%;
+    background: none;
+    color: white;
+    border: 2px solid grey;
+}
+
 h2,
 h3 {
     padding: 5px;
@@ -125,7 +135,7 @@ ul li {
 /* Buttons */
 
 .play-btn {
-    margin: auto;
+    margin: 5% auto;
     border-radius: 5px;
     padding: 12px 20px;
     font-size: 100%;
@@ -135,7 +145,7 @@ ul li {
 }
 
 .play-btn:hover {
-    margin: auto;
+    margin: 5% auto;
     border-radius: 5px;
     padding: 12px 20px;
     font-size: 100%;
@@ -242,6 +252,37 @@ ul li {
         border: 1.5px solid grey;
         box-shadow: 0 0 8px 2px grey;
         align-self: center;
+    }
+
+    .play-btn {
+        margin: 2% auto;
+        border-radius: 5px;
+        padding: 12px 20px;
+        font-size: 100%;
+        background: none;
+        color: white;
+        border: 2px solid grey;
+    }
+    
+    .play-btn:hover {
+        margin: 2% auto;
+        border-radius: 5px;
+        padding: 12px 20px;
+        font-size: 100%;
+        background: none;
+        color: white;
+        border: 2px solid grey;
+        box-shadow: 0 0 4px 2px grey;
+    }
+
+    #name {
+        margin: 2% auto;
+        border-radius: 5px;
+        padding: 12px 20px;
+        font-size: 100%;
+        background: none;
+        color: white;
+        border: 2px solid grey;
     }
 
 }
