@@ -219,7 +219,7 @@ All browsers show the page correctly and as intended.
 ![CSS Validator](docs/css-validator.png)
 
 - JavaScript
-  - I ran my Javascript code through [JSHint](https://jshint.com/) - no warnings show. 
+  - I ran my Javascript code through [JSHint](https://jshint.com/) - no warnings show. I had to add my lyrics.js file in with the script.js file as it did not pick up the 'questions' variable.
 
 ![JSHint Check](docs/jshint.png)
 
