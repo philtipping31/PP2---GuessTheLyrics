@@ -9,7 +9,6 @@
  */
 
 
-
 /* Global Variables */
 
 const questionElement = document.getElementById("lyrics");
@@ -124,14 +123,12 @@ function selectAnswer(choice) {
  */
 function startTimer() {
     timerInterval = setInterval(function () {
-        // Seconds increment to 59 then increment minute by 1
         if (timerSeconds === 59) {
             timerMinutes++;
             timerSeconds = 0;
         } else {
             timerSeconds++;
         }
-        //Format timer and display on quiz
         const formattedMinutes = timerMinutes < 10 ? `0${timerMinutes}` : timerMinutes;
         const formattedSeconds = timerSeconds < 10 ? `0${timerSeconds}` : timerSeconds;
         document.getElementById("timer").textContent = `${formattedMinutes}:${formattedSeconds}`;
@@ -153,31 +150,31 @@ function showFinalScore() {
         questionElement.innerHTML = `Well done for completing the lyrics quiz! <p>You're a lyrical genius!</p> <p>You scored ${score} out of 10 questions correctly in ${timerMinutes} mins : ${timerSeconds} secs.</p> 
         <p>Want to try again? Just click Play Again to retry the quiz.</p>
         </br>
-        <button class="play-btn" onclick="location.reload()">Play Again!</button>`;
+        <button id="play-btn" onclick="location.reload()">Play Again!</button>`;
     } else if (score > 6) {
         questionElement.innerHTML = `Well done for completing the lyrics quiz! <p>You did pretty well!</p> <p>You scored ${score} out of 10 questions correctly in ${timerMinutes} mins : ${timerSeconds} secs.</p>
         <p>Want to try again? Just click Play Again to retry the quiz.</p>
         </br>
-        <button class="play-btn" onclick="location.reload()">Play Again!</button>`;
+        <button id="play-btn" onclick="location.reload()">Play Again!</button>`;
     } else if (score > 4) {
         questionElement.innerHTML = `You've completed the lyrics quiz! <p>You did okay!</p> <p>You scored ${score} out of 10 questions correctly in ${timerMinutes} mins : ${timerSeconds} secs.</p>
         <p>Want to try again? Just click Play Again to retry the quiz.</p>
         </br>
-        <button class="play-btn" onclick="location.reload()">Play Again!</button>`;
+        <button id="play-btn" onclick="location.reload()">Play Again!</button>`;
     } else if (score > 0) {
         questionElement.innerHTML = `You've completed the lyrics quiz! <p>That was a pretty poor attempt!</p> <p>You scored ${score} out of 10 questions correctly in ${timerMinutes} mins : ${timerSeconds} secs.</p>
         <p>Want to try again? Just click Play Again to retry the quiz.</p>
         </br>
-        <button class="play-btn" onclick="location.reload()">Play Again!</button>`;
+        <button id="play-btn" onclick="location.reload()">Play Again!</button>`;
     } else if (score == 0) {
         questionElement.innerHTML = `You've completed the lyrics quiz! <p>You Failed!</p> <p>You scored ${score} out of 10 questions correctly in ${timerMinutes} mins : ${timerSeconds} secs.</p>
         <p>Want to try again? Just click Play Again to retry the quiz.</p>
         </br>
-        <button class="play-btn" onclick="location.reload()">Play Again!</button>`;
+        <button id="play-btn" onclick="location.reload()">Play Again!</button>`;
     } else {
         questionElement.innerHTML = `Something strange has happened here. <p>Want to try again? Just click Play Again to retry the quiz.</p>
         </br>
-        <button class="play-btn" onclick="location.reload()">Play Again!</button>`;
+        <button id="play-btn" onclick="location.reload()">Play Again!</button>`;
     }
 }
 
