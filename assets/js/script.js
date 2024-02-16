@@ -139,42 +139,33 @@ function startTimer() {
  * Allows user to play again by displaying the Play Again button*/
 
 function showFinalScore() {
-    // Stop the timer
     clearInterval(timerInterval);
     document.getElementById("timer-container").style.display = "none";
     document.getElementById("question-no").style.display = "none";
     resetState();
+
+    let message = "";
     if (score === 10) {
-        questionElement.innerHTML = `Well done for completing the lyrics quiz! <p>You're a lyrical genius!</p> <p>You scored ${score} out of 10 questions correctly in ${timerMinutes} mins : ${timerSeconds} secs.</p> 
-        <p>Want to try again? Just click Play Again to retry the quiz.</p>
-        </br>
-        <button id="play-btn" onclick="location.reload()">Play Again!</button>`;
+        message = `Well done for completing the lyrics quiz! <p>You're a lyrical genius!</p>`;
     } else if (score > 6) {
-        questionElement.innerHTML = `Well done for completing the lyrics quiz! <p>You did pretty well!</p> <p>You scored ${score} out of 10 questions correctly in ${timerMinutes} mins : ${timerSeconds} secs.</p>
-        <p>Want to try again? Just click Play Again to retry the quiz.</p>
-        </br>
-        <button id="play-btn" onclick="location.reload()">Play Again!</button>`;
+        message = `Well done for completing the lyrics quiz! <p>You did pretty well!</p>`;
     } else if (score > 4) {
-        questionElement.innerHTML = `You've completed the lyrics quiz! <p>You did okay!</p> <p>You scored ${score} out of 10 questions correctly in ${timerMinutes} mins : ${timerSeconds} secs.</p>
-        <p>Want to try again? Just click Play Again to retry the quiz.</p>
-        </br>
-        <button id="play-btn" onclick="location.reload()">Play Again!</button>`;
+        message = `You've completed the lyrics quiz! <p>You did okay!</p>`;
     } else if (score > 0) {
-        questionElement.innerHTML = `You've completed the lyrics quiz! <p>That was a pretty poor attempt!</p> <p>You scored ${score} out of 10 questions correctly in ${timerMinutes} mins : ${timerSeconds} secs.</p>
-        <p>Want to try again? Just click Play Again to retry the quiz.</p>
-        </br>
-        <button id="play-btn" onclick="location.reload()">Play Again!</button>`;
-    } else if (score == 0) {
-        questionElement.innerHTML = `You've completed the lyrics quiz! <p>You Failed!</p> <p>You scored ${score} out of 10 questions correctly in ${timerMinutes} mins : ${timerSeconds} secs.</p>
-        <p>Want to try again? Just click Play Again to retry the quiz.</p>
-        </br>
-        <button id="play-btn" onclick="location.reload()">Play Again!</button>`;
+        message = `You've completed the lyrics quiz! <p>That was a pretty poor attempt!</p>`;
+    } else if (score === 0) {
+        message = `You've completed the lyrics quiz! <p>You Failed!</p>`;
     } else {
-        questionElement.innerHTML = `Something strange has happened here. <p>Want to try again? Just click Play Again to retry the quiz.</p>
-        </br>
-        <button id="play-btn" onclick="location.reload()">Play Again!</button>`;
+        message = `Something strange has happened here.`;
     }
+
+    const scoreMessage = `<p>You scored ${score} out of 10 questions correctly in ${timerMinutes} mins : ${timerSeconds} secs.</p>
+        <p>Want to try again? Just click Play Again to retry the quiz.</p>
+        <button id="play-btn" onclick="location.reload()">Play Again!</button>`;
+
+    questionElement.innerHTML = `${message} ${scoreMessage}`;
 }
+
 
 /**
  * Handles the logic for the "Next" button, incrementing the question index.
