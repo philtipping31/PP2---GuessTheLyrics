@@ -107,8 +107,6 @@ function selectAnswer(choice) {
         correct.style.backgroundColor = "green";
     }
     Array.from(answerButtons.children).forEach(button => {
-        if (button.dataset.correct === "true") {
-        }
         //Disables buttons from being used after intial selection
         button.disabled = true;
     });
