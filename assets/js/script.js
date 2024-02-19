@@ -4,6 +4,7 @@
 * selectAnswer function, this was used but refactored and used in a slightly different way to assign the colours to the answer buttons without adding classes.
 * nextbutton event listener code, changed to only factor in 10 questions.
 * handleNextButton, however I changed the setup of this code to deal with 10 questions and use of const to define MaxQuestions.
+* resetState function taken from youtube video.
  */
 
 

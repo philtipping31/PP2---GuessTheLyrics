@@ -228,13 +228,9 @@ All browsers show the page correctly and as intended.
   - I ran my project through lighthouse to ensure the accessibility level was to a high standard on all pages.
   - The performance was in the middle region so I moved the Google Fonts link from the html document to the css document. I also changed the background image from jpg to webp. This improved the score to 100 on all pages.
 
-- Home Page
   
-![Lighthouse reading Home Page](docs/home-lighthouse.png)
+![Lighthouse reading](docs/lighthouse.png)
 
-- Quiz Page
-
-![Lighthouse reading Quiz Page](docs/quiz-lighthouse.png)
 
 
 ## Deployment
@@ -309,7 +305,7 @@ I watched these videos to help with the logic on how to build a quiz game using 
 - <https://www.youtube.com/watch?v=Vp8x8-reqZA&ab_channel=Codehal>
 
 
-This youtube video was followed closly and code was taken from this for the following functions:
+This youtube video was followed closely and code was taken from this for the following functions:
 
 [Great Stack Video](https://www.youtube.com/watch?v=PBcqGxrr9g8&ab_channel=GreatStack)
 
